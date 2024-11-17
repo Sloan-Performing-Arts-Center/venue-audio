@@ -14,7 +14,7 @@ This standard plot requires adding **5 speakers**, making 7 total including the 
 | 6   | Foldback&nbsp;L | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE LEFT.  |
 | 7   | Foldback&nbsp;R | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE RIGHT. |
 
-Additional speaker outputs are available but not included by default—see [extending the system](extending.md).
+Additional speaker outputs are available but not included by default—see this section in [extending the system](extending.md#add-floor-wedge-stage-monitors).
 
 ### Specific Speaker Details
 
@@ -81,9 +81,12 @@ Run the following cables to connect the sound table into the house system.
 #### Dante Audio:
 
 1. **Dante to console.**
-   - Run 2 ethernet lines: Dante Primary and Dante Secondary. Use the dedicated Dante Primary/Secondary ports on the wall panel.
+
+   Run 2 ethernet lines: Dante Primary and Dante Secondary. Use the dedicated Dante Primary/Secondary ports on the wall panel.
+
 1. **Dante to computer.**
-   - Run 1 ethernet line from the **built-in ethernet jack** on the Mac to a dedicated **Dante Primary** port on the wall panel.
+
+   Run 1 ethernet line from the **built-in ethernet jack** on the Mac to a dedicated **Dante Primary** port on the wall panel.
 
 > [!NOTE]
 > For Dante audio, please use the large blue audio snake if available, using the **4 colored ethercon lines** to connect audio paths.
@@ -91,11 +94,18 @@ Run the following cables to connect the sound table into the house system.
 #### Control Network:
 
 1. **Control to network switch** <- D102.
-   - Run ethernet into the portable network switch from **wall panel port D102**.
-     > TODO the switch connection for D102 should be in GREEN
+
+   Run ethernet into the portable network switch from **wall panel port D102**.
+
+   > TODO the switch connection for D102 should be in GREEN
+
 1. **Network switch to console.**
-   - Run ethernet from the portable switch to the QL5's ![(network symbol)](../assets/network_icon.png) network port.
-1. **Network switch to computer.** - Run ethernet from the portable switch into the Mac's included thunderbolt-to-ethernet adapter.
+
+   Run ethernet from the portable switch to the QL5's ![(network symbol)](../assets/network_icon.png) network port.
+
+1. **Network switch to computer.**
+
+   Run ethernet from the portable switch into the Mac's included thunderbolt-to-ethernet adapter.
 
 > [!IMPORTANT]
 > The control network _must_ be plugged into the adapter, and Dante _must_ be plugged into the built-in network jack. **Each port is configured with distinct IP address settings.**
@@ -103,11 +113,16 @@ Run the following cables to connect the sound table into the house system.
 #### Video/Comms:
 
 1. **DM Transmitter (video signal) to PTP port.**
-   - Connect the DM transmitter to the Mac using HDMI.
-   - Run ethernet from the Crestron DM Transmitter output into a point-to-point ethernet port on the wall panel.
-   - Use the patch bay to run this signal to another point-to-point that can reach the projector.
+
+   Connect the DM transmitter to the Mac using HDMI.
+
+   Run ethernet from the Crestron DM Transmitter output into a point-to-point ethernet port on the wall panel.
+
+   Use the patch bay to run this signal to another point-to-point that can reach the projector.
+
 1. **Operator comms**.
-   - Run a comms box from **comms channel A**.
+
+   Run a comms box from **comms channel A**.
 
 ## Load All Base Show Files
 
@@ -116,13 +131,17 @@ Once the table is connected to the system, power on the console and computer.
 **You will need to load 3 base show files.**
 
 1. QL5 Base Show file.
+
    1. SETUP > SAVE/LOAD to access show files.
    1. Load the **`000 SLOAN BASE.clf`** show file, found in the root folder.
+
 1. Dante Patch Preset.
+
    1. Open **Dante Controller** on the Mac.
-   1. **WAIT** for devices to show up on screen. If they don't, see [troubleshooting](../troubleshooting.md).
+   1. **WAIT** for devices to show up on screen. If they don't, see [troubleshooting](../troubleshooting.md#network-connection-issues-on-mac).
    1. Use the Load Preset option (File menu) to load `Desktop/Dante Presets/SLOAN BASE.xml`.
    1. Click OK on the popup (use the default options that come up.)
+
 1. TF-RACK Base Scene.
    1. Find the installed Yamaha TF-RACK in the rack room.
    1. Go to the scene menu in the top left corner.

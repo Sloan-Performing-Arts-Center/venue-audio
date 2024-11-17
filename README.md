@@ -16,3 +16,4 @@ On any page, use the ![outline button](assets/outline.png) icon in the top right
 
 - [Base Show File Backups](SHOW%20FILE%20BACKUPS/)
 - [Sound Table Setup](rep/setup.md#setting-the-sound-table)
+- [TouchOSC Go Controller for QLab](extras/control.md)

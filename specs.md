@@ -47,3 +47,8 @@ The following patch points should always be connected, to at least one side.
 | Audio Control to Booth     | Control Switch       | D108 (???)     | Typically connects to ETC Ion's Port 2 for OSC control.                                                                                 |
 
 [[TODO there are definitely more]]
+
+## SM VOG/God Mic/Paging Microphone System
+
+[[ TODO picture of SM setup ]]
+
