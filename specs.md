@@ -38,17 +38,20 @@ The following patch points should always be connected, to at least one side.
 
 | Purpose                    | From                 | To             | Notes                                                                                                                                   |
 | -------------------------- | -------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| Room Mics LR               | TODO                 | TF IN 1-2      | for backstage feed                                                                                                                      |
-| Network Cam                | TODO                 | Campus Network | for lobby video feed                                                                                                                    |
-| SM Video Camera            | TODO                 | Cam 1          |
-| SM VIDEO OUT               | SM Out (unlabelled?) | TODO           | To SM video monitor                                                                                                                     |
+| Room Mics LR               | M57-58               | TF IN 1-2      | for backstage feed                                                                                                                      |
+| Network Cam                | D88                  | Campus Network | for lobby video feed                                                                                                                    |
+| SM Video Camera            | D89                  | Cam 1          |
+| SM VIDEO OUT               | SM Out (unlabelled?) | D107 (default) | DEFAULT to SM video monitor. This may be changed for shows but should return back.                                                      |
 |                            |
 | Audio Control to Mezzanine | Control Switch       | D102           | If you need to use the sound console elsewhere, do not strike this cable. Just patch an additional PTP into the control network switch. |
-| Audio Control to Booth     | Control Switch       | D108 (???)     | Typically connects to ETC Ion's Port 2 for OSC control.                                                                                 |
-
-[[TODO there are definitely more]]
+| Audio Control to Booth     | Control Switch       | D108           | Typically connects to ETC Ion's Port 2 for OSC control.                                                                                 |
 
 ## SM VOG/God Mic/Paging Microphone System
 
-[[ TODO picture of SM setup ]]
+The SM Voice of God system is made up of three primary components:
 
+- Shure PGA god mic.
+- ROLLS push to talk button
+- Radial A/B switcher.
+
+![god mic system](assets/sm_mic.png)

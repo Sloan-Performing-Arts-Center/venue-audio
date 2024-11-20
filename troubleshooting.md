@@ -14,12 +14,7 @@ If Dante Controller shows no devices, or there are signs of a failed connection 
 
    On the Mac, navigate to `System Settings > Network`. Both ethernet connections should show a green _Connected_ message.
 
-   > ![connected](assets/connected.png)
-   >
-   > - Ethernet (Dante)
-   > - AX88179 (Control)
-
-   [[TODO better image]]
+   ![network status](assets/net_status.png)
 
    If either is not green, first check the [physical network connections](rep/setup.md#cables-to-run).
 
@@ -38,8 +33,6 @@ If Dante Controller shows no devices, or there are signs of a failed connection 
    - ETC Lighting Network (10.101.X.X)
 
    Ensure there is nowhere two of these networks go into the same network switch, and that any computer connected to more than one has subnet masks placed to separate them.
-
-text text
 
 > [!IMPORTANT]
 > DO NOT connect to audio/control networks using the Mac's WiFi.
