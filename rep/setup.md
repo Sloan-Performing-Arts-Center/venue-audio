@@ -97,7 +97,7 @@ Run the following cables to connect the sound table into the house system.
 
    Run ethernet into the portable network switch from **wall panel port D102**.
 
-   > TODO the switch connection for D102 should be in GREEN
+   > TODO the switch connection for D102 should be in GREEN - DONE
 
 1. **Network switch to console.**
 

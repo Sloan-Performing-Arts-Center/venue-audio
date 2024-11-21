@@ -46,6 +46,18 @@ The following patch points should always be connected, to at least one side.
 | Audio Control to Mezzanine | Control Switch       | D102           | If you need to use the sound console elsewhere, do not strike this cable. Just patch an additional PTP into the control network switch. |
 | Audio Control to Booth     | Control Switch       | D108           | Typically connects to ETC Ion's Port 2 for OSC control.                                                                                 |
 
+## Backstage zones
+
+Audio can be routed to various locations throughout the buidling using the installed AV system (Crestron/Tesira). The system is divided into the following zones:
+
+- Zone A: Main Lobby
+- Zone B: Lobby Left Side (by the theater entrance door)
+- Zone C: Bathrooms
+- Zone C2: Front Offices
+- Zone D1: Green Room only
+- Zone D2: prod support - booth tech office + dressing rooms + green room hallway
+  - probably cond lab and costumes too
+
 ## SM VOG/God Mic/Paging Microphone System
 
 The SM Voice of God system is made up of three primary components:
