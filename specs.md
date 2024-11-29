@@ -32,6 +32,12 @@ Remove all **${\color{red}\text{red}}$** cables and any remaining **${\color{#DA
 
 Remove all **${\color{blue}\text{blue}}$** cables and any remaining **${\color{#DAA520}\text{yellow}}$** or **${\color{red}\text{red}}$** cables.
 
+---
+
+> TODO let's get an annotated photo of the blank patch bay, green/permanent only
+
+---
+
 ## Permanent Patch Points
 
 The following patch points should always be connected, to at least one side.
@@ -40,30 +46,103 @@ The following patch points should always be connected, to at least one side.
 | -------------------------- | -------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | Room Mics LR               | M57-58               | TF IN 1-2      | for backstage feed                                                                                                                      |
 | Network Cam                | D88                  | Campus Network | for lobby video feed                                                                                                                    |
-| SM Video Camera            | D89                  | Cam 1          |
-| SM VIDEO OUT               | SM Out (unlabelled?) | D107 (default) | DEFAULT to SM video monitor. This may be changed for shows but should return back.                                                      |
+| SM Video Camera            | D89                  | `CAM 1`        | Camera feed into distributor                                                                                                            |
+| SM VIDEO OUT               | SM Out (unlabelled?) | D107 (default) | DEFAULT to SM video monitor. This can be moved for shows but should return here.                                                        |
 |                            |
 | Audio Control to Mezzanine | Control Switch       | D102           | If you need to use the sound console elsewhere, do not strike this cable. Just patch an additional PTP into the control network switch. |
 | Audio Control to Booth     | Control Switch       | D108           | Typically connects to ETC Ion's Port 2 for OSC control.                                                                                 |
 
-## Backstage zones
+## Backstage Audio Monitoring (Tesira/Crestron/TF)
 
-Audio can be routed to various locations throughout the buidling using the installed AV system (Crestron/Tesira). The system is divided into the following zones:
+The backstage monitoring system can be used to pass audio into most rooms around the building. Reference the system diagram below, but generally:
 
-- Zone A: Main Lobby
-- Zone B: Lobby Left Side (by the theater entrance door)
-- Zone C: Bathrooms
-- Zone C2: Front Offices
-- Zone D1: Green Room only
-- Zone D2: prod support - booth tech office + dressing rooms + green room hallway
-  - probably cond lab and costumes too
+Use the **TF-RACK** to prepare backstage feeds; you can mix together room mics and page mics with other sources as needed.
+
+Use the **Crestron Touch Panel** to choose which feed goes to which room.
+
+### System Diagram
+
+![backstage system flow diagram](assets/backstage_flow.png)
+
+&nbsp;
+
+The only two sources used by default are the permanently-installed room mics, and the SM VOG microphone. (Those are both green analog patches, so make sure they're [plugged in](#tf-input-channels).)
+
+### Backstage zones
+
+Audio can be routed to various locations throughout the building using the installed AV system (Crestron/Tesira). The system is divided into the following zones:
+
+- Zone A: **Main Lobby**
+- Zone B: **Lobby Left Side** (by the theater entrance door)
+- Zone C: **Bathrooms**
+- Zone C2: **Front Offices**
+- Zone D1: **Green Room** - _only_ the green room itself.
+- Zone D2: **Production Support**. This includes:
+  - Tech booth (mezzanine)
+  - Dressing rooms
+  - Green room hallway
+  - Conditioning lab
+  - Costume shop
+  - Student tech office (mezzanine level)
+
+### Controlling the backstage system with QLab
+
+The base QLab template has a cue list for controlling the backstage system.
+
+> TODO qlab system control screenshot AND **get correct qlab template backup**
+
+#### backstage on/off
+
+Running these cues will turn on/off the room mics in the backstage feed, and anywhere else you have routed them.
+
+#### lobby on/off
+
+Running these cues will turn on/off the lobby feed.
+
+### TF Rack
+
+![picture of TF-RACK](assets/tf.png)
+
+Recall the `TF BASE` scene to return the TF to default settings.
+
+> <img width="396" src="assets/tf_scene.png" />
+
+The default includes:
+
+- The SM Page mic is patched to all backstage zones.
+- The room mics are patched to all backstage zones, but turned off by default.  
+  You'll usually want to turn them on/off [using QLab cues](#controlling-the-backstage-system-with-qlab).
+
+#### TF input channels
+
+| Input | Purpose         | Patch&nbsp;Type | Signal&nbsp;From | Notes                                           |
+| ----- | --------------- | --------------- | ---------------- | ----------------------------------------------- |
+| 1     | XY Mic Pair (L) | Physical        | M57              |
+| 2     | XY Mic Pair (R) | Physical        | M58              |
+| 3     | Send from QL5   | Dante           | QL5              |
+| 4     | Send from QL5   | Dante           | QL5              |
+| 5     | SM Announce Mic | Physical        | A107 (default)   | Patch to wherever the stage manager is located. |
+| 6     | SM Page Mic     | Physical        | A108 (default)   | Patch to wherever the stage manager is located. |
+
+#### TF output channels
+
+| Output | Purpose            | Patch Type | Signal To            | Notes                       |
+| ------ | ------------------ | ---------- | -------------------- | --------------------------- |
+| 1      | Backstage Feed     | Dante      | Tesira Monitor_Sys_1 | Dante 1 (Crestron)          |
+| 2      | ALS System         | Physical   |                      |
+| 3      | Lobby Feed         | Dante      | Tesira Monitor_Sys_2 | Dante 2 (Crestron)          |
+| 4      | (Input from Patch) | Physical   |                      | Input from patch (Crestron) |
+
+TODO @chris what does output 4 mean
 
 ## SM VOG/God Mic/Paging Microphone System
 
-The SM Voice of God system is made up of three primary components:
+The SM Voice of God system allows the stage manager to either announce messages directly backstage, or into the theatre and backstage.
 
-- Shure PGA god mic.
-- ROLLS push to talk button
-- Radial A/B switcher.
+The roaming system is made up of three primary components:
 
-![god mic system](assets/sm_mic.png)
+- **Shure PGA god mic** - leave its switch turned on.
+- **ROLLS push to talk button** - use this to talk through the system.
+- **Radial A/B switcher** - choose between output locations.
+
+<img width="400" alt="god mic system" src="assets/sm_mic.png" />

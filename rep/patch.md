@@ -10,14 +10,14 @@
 | 6     | Floor Mic 2 (SLC) | Dante      | M23 – RIO 23 IN | Normalized |
 | 7     | Floor Mic 3 (SRC) | Dante      | M22 – RIO 22 IN | Normalized |
 | 8     | Floor Mic 4 (SR)  | Dante      | M21 – RIO 21 IN | Normalized |
-| 9     | Open              | Physical   | A# - RIO 9 IN   |
-| 10    | Open              | Physical   | A# - RIO 10 IN  |
-| 11    | Open              | Physical   | A# - RIO 11 IN  |
-| 12    | Open              | Physical   | A# - RIO 12 IN  |
-| 13    | Open              | Physical   | A# - RIO 13 IN  |
-| 14    | Open              | Physical   | A# - RIO 14 IN  |
-| 15    | Open              | Physical   | A# - RIO 15 IN  |
-| 16    | Open              | Physical   | A# - RIO 16 IN  |
+| 9     | RIO 9             | Physical   | A# - RIO 9 IN   |
+| 10    | RIO 10            | Physical   | A# - RIO 10 IN  |
+| 11    | RIO 11            | Physical   | A# - RIO 11 IN  |
+| 12    | RIO 12            | Physical   | A# - RIO 12 IN  |
+| 13    | RIO 13            | Physical   | A# - RIO 13 IN  |
+| 14    | RIO 14            | Physical   | A# - RIO 14 IN  |
+| 15    | RIO 15            | Physical   | A# - RIO 15 IN  |
+| 16    | RIO 16            | Physical   | A# - RIO 16 IN  |
 | 17    | AUX L             | Local      | XLR Input 31    |
 | 18    | AUX R             | Local      | XLR Input 32    |
 | 19    | PC Left           | Dante      | DVSC Channel 63 |
@@ -50,25 +50,3 @@ _Stereo Right (Main Right, Center, Sub)_
 | 14     | Open           |            |                  |
 | 15     | Send to TF L   | Dante      |                  | Matrix 7 |
 | 16     | Send to TF R   | Dante      |                  | Matrix 8 |
-
-### TF ins
-
-| Input | Purpose         | Patch Type | Path         | Notes |
-| ----- | --------------- | ---------- | ------------ | ----- |
-| 1     | XY Mic Pair     | Physical   |              |
-| 2     | XY Mic Pair     | Physical   |              |
-| 3     | Send from QL5   | Dante      |              |
-| 4     | Send from QL5   | Dante      |              |
-| 5     | SM Announce Mic | Physical   | A# - TF 5 IN |
-| 6     | SM Page Mic     | Physical   | A# - TF 6 IN |
-
-### TF outs
-
-| Output | Purpose            | Patch Type | Path | Notes                       |
-| ------ | ------------------ | ---------- | ---- | --------------------------- |
-| 1      | Monitor System 1   | Dante      |      | Dante 1 (Crestron)          |
-| 2      | ALS System         | Physical   |      |
-| 3      | Monitor System 2   | Dante      |      | Dante 2 (Crestron)          |
-| 4      | (Input from Patch) | Physical   |      | Input from patch (Crestron) |
-| 5      | Open               |            |      |
-| 6      | Open               |            |      |

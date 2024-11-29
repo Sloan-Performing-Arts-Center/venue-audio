@@ -62,6 +62,8 @@ TODO don't forget the 4 speaker drop outputs (rio output total count should be 1
 
 ## Setting the Sound Table
 
+![sound table picture](../assets/sound_table.png)
+
 By convention, the sound control table is generally placed on the mezzanine, just outside of the tech booth. Directly to the right of this position is a support pillar, which has a set of patch points on its west side.
 
 **Ensure you have located all items needed:**
@@ -95,9 +97,7 @@ Run the following cables to connect the sound table into the house system.
 
 1. **Control to network switch** <- D102.
 
-   Run ethernet into the portable network switch from **wall panel port D102**.
-
-   > TODO the switch connection for D102 should be in GREEN - DONE
+   Run ethernet into the portable network switch from **wall panel port D102**. (This should be permanently connected to the control network.)
 
 1. **Network switch to console.**
 

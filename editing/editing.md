@@ -1,8 +1,19 @@
 ## VSCode
 
-You can edit using VSCode directly in the browser. Open any docs page on GitHub and press <kbd>Shift</kbd> <kbd>.</kbd> or change the `.com` in the URL to `.dev`.
+~~You can edit using VSCode directly in the browser. Open any docs page on GitHub and press <kbd>Shift</kbd> <kbd>.</kbd> or change the `.com` in the URL to `.dev`.~~  
+**_^^ (this is pretty new and too glitchy right now [2024-11-21])_**
 
 Otherwise [download it here](https://code.visualstudio.com).
+
+### Downloading the project
+
+You can access the Github project using [Github Desktop](https://desktop.github.com/download/). Their ["Getting Started" guide](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop) will get you through the basics.
+
+After you connect to the Github project, VSCode can manage and upload changes all by itself.
+
+<img width="403" src="img/image-3.png" />
+
+> _you can also open the project using this button on the website._
 
 ### Preview
 
@@ -65,6 +76,30 @@ Move the current line (or selection) using <kbd>Opt</kbd> <kbd>Up</kbd>/<kbd>Dow
 Hold <kbd>Opt</kbd> <kbd>Shift</kbd> while dragging to create a box selection.
 
 ![](img/v1.gif)
+
+### Linking to sections/Renaming sections
+
+Headings are marked by starting a line with 1-4 hashes `#`.
+
+When you create a heading, it is automatically added to the page outline, and the heading gets its own direct URL.
+
+When you create a `[link](https://url.com)`, **you can link directly between pages and headings**.
+
+You can **browse for pages and subheadings** by putting your cursor inside the parentheses for a link, and pressing <kbd>Ctrl</kbd> <kbd>Space</kbd>.
+
+Relative links are made up of a relative file path and a heading hash, separated by a `#`:
+
+<img width="725" src="img/image-2.png" />
+
+#### Renaming Headings
+
+Heading links are created based on the heading text—if you change the heading title, it will break any links you've made.
+
+**If you need to change a heading title, VSCode can automatically update links for you.**  
+Just select the heading text, press <kbd>F2</kbd>, then enter your new name. All links will be auto-updated if needed.
+
+> [!TIP]
+> You can also access the rename dialog by right-clicking a heading and choosing `Rename Symbol`.
 
 ### Snippets
 

@@ -18,18 +18,12 @@
   "blank line": {
     "scope": "markdown",
     "prefix": "nl",
-    "body": [
-      "",
-      "&nbsp;",
-      "$0"
-    ]
+    "body": ["", "&nbsp;", "$0"]
   },
   "image": {
     "scope": "markdown",
     "prefix": "img",
-    "body": [
-      "![$2](img/$1)$0"
-    ]
+    "body": ["![$2](img/$1)$0"]
   },
   "centered image": {
     "scope": "markdown",
@@ -40,18 +34,19 @@
       "</div>"
     ]
   },
+  "image with width": {
+    "scope": "markdown",
+    "prefix": "wimg",
+    "body": "<img width=\"$2\" src=\"$1\" />$0"
+  },
   "Page Break": {
     "scope": "markdown",
     "prefix": "pgb",
-    "body": [
-      "<div style=\"page-break-after: always;\"></div>"
-    ]
+    "body": ["<div style=\"page-break-after: always;\"></div>"]
   },
   "Add Table Header": {
     "scope": "markdown",
     "prefix": "tbl",
-    "body": [
-      "|-|-|-|-|-|-|-|-|-|-"
-    ]
+    "body": ["|-|-|-|-|-|-|-|-|-|-"]
   }
 }
