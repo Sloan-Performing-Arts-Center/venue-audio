@@ -6,7 +6,7 @@ This file was designed for shows where you have a separate sound board operator,
 
 ---
 
-### [Click to Download →](https://github.com/hingobway/spac/raw/refs/heads/main/SHOW%20FILE%20BACKUPS/QLab%20GO%20Controller.tosc)
+### [Click to Download →](https://github.com/sloan-performing-arts-center/venue-audio/raw/refs/heads/main/SHOW%20FILE%20BACKUPS/QLab%20GO%20Controller.tosc)
 
 ---
 
