@@ -37,6 +37,14 @@ Automatically format the text using <kbd>Opt</kbd> <kbd>Shift</kbd> <kbd>F</kbd>
 
 OR open settings and enable for `Format on Save`, which will format the document every time you <kbd>Cmd</kbd> <kbd>S</kbd>.
 
+### Line Wrapping
+
+Use <kbd>Opt</kbd> <kbd>Z</kbd> to toggle "Word Wrap", which determines whether long lines of text wrap onto a new line (this is only applied on your computer).
+
+When writing text, you'll want it ON, so that you can see everything you're writing.
+
+When editing tables, you'll want it OFF, so that the table formatting is clear.
+
 ### Saving Changes
 
 Use the **Source Control** tab to manage your changes and upload them to the GitHub project.

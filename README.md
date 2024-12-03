@@ -6,14 +6,17 @@
 
 On any page, use the ![outline button](assets/outline.png) icon in the top right to browse the page's subheadings.
 
-- Dance Rep Plot (audio/video)
+- [**Permanent Specifications**](specs.md)
+- **Dance Rep Plot (audio/video)**
   - [Rep Plot Setup](rep/setup.md)
   - [Extending the Rep System](rep/extending.md)
-- [Permanent Specifications](specs.md)
-- [Troubleshooting](troubleshooting.md)
+  - [Full Patch Tables](rep/patch.md)
+- [**Troubleshooting**](troubleshooting.md)
+- [Editing This Documentation](editing/editing.md)
 
 ## Helpful Shortcuts
 
-- [Base Show File Backups](SHOW%20FILE%20BACKUPS/)
-- [Sound Table Setup](rep/setup.md#setting-the-sound-table)
+- [Sound Table Setup (Dance Rep)](rep/setup.md#setting-the-sound-table)
+- [Backstage Audio Monitoring System (Crestron)](specs.md#backstage-audio-monitoring-tesiracrestrontf)
+- [Show File Downloads](SHOW%20FILE%20BACKUPS/)
 - [TouchOSC Go Controller for QLab](extras/control.md)

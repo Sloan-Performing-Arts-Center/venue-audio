@@ -1,22 +1,36 @@
 # System Setup: Dance Rep
 
-## Speaker Installation
+## Analog Patch
+
+This includes general instructions for preparing the patch for this system.
+
+**Always follow the [patch cable color code](../specs.md#patch-bay-color-code)** when installing.
+
+**Refer to the [patch plot](patch.md) to find/verify all specific patch points.**
+
+### Speaker Installation
 
 This standard plot requires adding **5 speakers**, making 7 total including the permanent mains pair.
 
-| #   | Name            | Unit           | Location                             | Purpose                                 |
-| --- | --------------- | -------------- | ------------------------------------ | --------------------------------------- |
-| 1   | Main&nbsp;L     | Fulcrum DX1526 | **_permanently installed_**          |                                         |
-| 2   | Main&nbsp;R     | Fulcrum DX1526 | **_permanently installed_**          |                                         |
-| 3   | Main&nbsp;C     | Yamaha DXR12   | Catwalk 3 - US Toe Pipe              | Center fill                             |
-| 4   | Sub&nbsp;1      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | FORWARD (bottom) unit in cardioid stack |
-| 5   | Sub&nbsp;2      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | REVERSE (top) unit in cardioid stack    |
-| 6   | Foldback&nbsp;L | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE LEFT.  |
-| 7   | Foldback&nbsp;R | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE RIGHT. |
+| #   | Name            | Unit           | Location                             | Purpose                                          | RIO Output | Wall Port |
+| --- | --------------- | -------------- | ------------------------------------ | ------------------------------------------------ | ---------- | --------- |
+| 1   | Main&nbsp;L     | Fulcrum DX1526 | **_permanently installed_**          |                                                  |            |           |
+| 2   | Main&nbsp;R     | Fulcrum DX1526 | **_permanently installed_**          |                                                  |            |           |
+| 3   | Main&nbsp;C     | Yamaha DXR12   | Catwalk 3 - US Toe Pipe              | Center fill                                      | OUT 1      | A58       |
+| 4   | Sub&nbsp;1      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | FORWARD (bottom) unit in cardioid stack          | OUT 2      | A115      |
+| 5   | Sub&nbsp;2      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | REVERSE (top) unit in cardioid stack             | OUT 3      | A125      |
+| 6   | Foldback&nbsp;L | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE LEFT.           | OUT 4      | A126      |
+| 7   | Foldback&nbsp;R | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE RIGHT.          | OUT 5      | A116      |
+| 8   | Floor Mon 1     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 6      | A73       |
+| 9   | Floor Mon 2     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 7      | A74       |
+| 10  | Floor Mon 3     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 8      | A81       |
+| 11  | Floor Mon 4     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 9      | A82       |
 
-Additional speaker outputs are available but not included by default—see this section in [extending the system](extending.md#add-floor-wedge-stage-monitors).
+More information on the **_optional_** floor stage monitors is available in [extending the system](extending.md#add-floor-wedge-stage-monitors).
 
-### Specific Speaker Details
+The wall ports listed are only recommendations. You can use any wall ports, as long as the RIO output lines up with the specified speaker as listed.
+
+### Specific Speaker Prep
 
 #### Center Fill
 
@@ -43,22 +57,6 @@ Check that both subs match the following settings:
 - Gain set to 3 o'clock. (This is NOT recommended for any other system, but clipping is accounted for elsewhere in this system.)
 
 [[TODO verify back of speaker settings (need image)]]
-
-## Analog Patch
-
-This includes general instructions for preparing the patch for this system.
-
-**Always follow the [patch cable color code](../specs.md#patch-bay-color-code)** when installing.
-
-**Refer to the [patch plot](#TODO-link) to find/verify all specific patch points.**
-
-TODO don't forget the 4 speaker drop outputs (rio output total count should be 11).
-
-## Unorganized so far??
-
-- explain preset PZM inputs
-- explain SM VOG setup
-  - link to SM VOG explanation in permanent spec
 
 ## Setting the Sound Table
 
@@ -154,3 +152,9 @@ Once you have loaded the QL5 base file and the Dante patch, you should be able t
 **All microphones should be set to `??? dB` of gain.**
 
 [[TODO what is the number and does it actually not recall]]
+
+## Unorganized so far??
+
+- explain preset PZM inputs
+- explain SM VOG setup
+  - link to SM VOG explanation in permanent spec
