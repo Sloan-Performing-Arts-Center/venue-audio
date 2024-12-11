@@ -1,52 +1,59 @@
-### QL5 House Inputs
+# Dance Rep - Patch Tables
 
-| Input | Purpose           | Patch Type | Path            | Notes      |
-| ----- | ----------------- | ---------- | --------------- | ---------- |
-| 1     | Wireless 1        | Dante      |                 |
-| 2     | Wireless 2        | Dante      |                 |
-| 3     | Wireless 3        | Dante      |                 |
-| 4     | Wireless 4        | Dante      |                 |
-| 5     | Floor Mic 1 (SL)  | Dante      | M24 - RIO 24 IN | Normalized |
-| 6     | Floor Mic 2 (SLC) | Dante      | M23 – RIO 23 IN | Normalized |
-| 7     | Floor Mic 3 (SRC) | Dante      | M22 – RIO 22 IN | Normalized |
-| 8     | Floor Mic 4 (SR)  | Dante      | M21 – RIO 21 IN | Normalized |
-| 9     | RIO 9             | Physical   | A# - RIO 9 IN   |
-| 10    | RIO 10            | Physical   | A# - RIO 10 IN  |
-| 11    | RIO 11            | Physical   | A# - RIO 11 IN  |
-| 12    | RIO 12            | Physical   | A# - RIO 12 IN  |
-| 13    | RIO 13            | Physical   | A# - RIO 13 IN  |
-| 14    | RIO 14            | Physical   | A# - RIO 14 IN  |
-| 15    | RIO 15            | Physical   | A# - RIO 15 IN  |
-| 16    | RIO 16            | Physical   | A# - RIO 16 IN  |
-| 17    | AUX L             | Local      | XLR Input 31    |
-| 18    | AUX R             | Local      | XLR Input 32    |
-| 19    | PC Left           | Dante      | DVSC Channel 63 |
-| 20    | PC Right          | Dante      | DVSC Channel 64 |
-| 21    | QLab Left         | Dante      | DVSC Channel 1  |
-| 22    | QLab Right        | Dante      | DVSC Channel 2  |
-| 23    | QLab Aux1         | Dante      | DVSC Channel 3  |
-| 24    | QLab Aux2         | Dante      | DVSC Channel 4  |
+### QL5 Console Inputs
 
-### QL5 House Outputs
+| Input | Purpose           | Patch Type | Path            | Notes                |
+| ----- | ----------------- | ---------- | --------------- | -------------------- |
+| 1     | Wireless 1        | Dante      |                 |                      |
+| 2     | Wireless 2        | Dante      |                 |                      |
+| 3     | Wireless 3        | Dante      |                 |                      |
+| 4     | Wireless 4        | Dante      |                 |                      |
+| 5     | Floor Mic 1 (SR)  | Dante      | M21 → RIO IN 21 | Normalized           |
+| 6     | Floor Mic 2 (SRC) | Dante      | M22 → RIO IN 22 | Normalized           |
+| 7     | Floor Mic 3 (SLC) | Dante      | M23 → RIO IN 23 | Normalized           |
+| 8     | Floor Mic 4 (SL)  | Dante      | M24 → RIO IN 24 | Normalized           |
+| 9     | rio9              | Physical   | RIO IN 9        |                      |
+| 10    | rio10             | Physical   | RIO IN 10       |                      |
+| 11    | rio11             | Physical   | RIO IN 11       |                      |
+| 12    | rio12             | Physical   | RIO IN 12       |                      |
+| 13    | rio13             | Physical   | RIO IN 13       |                      |
+| 14    | rio14             | Physical   | RIO IN 14       |                      |
+| 15    | rio15             | Physical   | RIO IN 15       |                      |
+| 16    | rio16             | Physical   | RIO IN 16       |                      |
+| 17    | AUX L             | Local      | XLR Input 31    | Stereo DI at console |
+| 18    | AUX R             | Local      | XLR Input 32    | Stereo DI at console |
+| 19    | PC Left           | Dante      | iMac Channel 63 |                      |
+| 20    | PC Right          | Dante      | iMac Channel 64 |                      |
+| 21    | QLab Left         | Dante      | iMac Channel 1  |                      |
+| 22    | QLab Right        | Dante      | iMac Channel 2  |                      |
+| 23    | QLab Aux1         | Dante      | iMac Channel 3  |                      |
+| 24    | QLab Aux2         | Dante      | iMac Channel 4  |                      |
+| 25    | dante25           | Dante      | Dante IN 25     |                      |
+| 26    | dante26           | Dante      | Dante IN 26     |                      |
+| 27    | dante27           | Dante      | Dante IN 27     |                      |
+| 28    | dante28           | Dante      | Dante IN 28     |                      |
+| 29    | dante29           | Dante      | Dante IN 29     |                      |
+| 30    | dante30           | Dante      | Dante IN 30     |                      |
+| 31    | dante31           | Dante      | Dante IN 31     |                      |
+| 32    | dante32           | Dante      | Dante IN 32     |                      |
 
-_Stereo Left (Main Left, Center, Sub)_
-_Stereo Right (Main Right, Center, Sub)_
+### QL5 Console Outputs
 
-| Output | Purpose        | Patch Type | Path             | Notes    |
-| ------ | -------------- | ---------- | ---------------- | -------- |
-| 1      | Main L         | Dante      |                  | Matrix 1 |
-| 2      | Main R         | Dante      |                  | Matrix 2 |
-| 3      | Main C         | Physical   | A58 – RIO 1 OUT  | Matrix 3 |
-| 4      | Sub 1          | Physical   | A115 – RIO 2 OUT | Matrix 4 |
-| 5      | Sub 2          | Physical   | A125 – RIO 3 OUT | Matrix 5 |
-| 6      | Foldback SL    | Physical   | A126 – RIO 4 OUT | Mix 1    |
-| 7      | Foldback SR    | Physical   | A116 – RIO 5 OUT | Mix 2    |
-| 8      | Floor Mon 1 SL | Physical   | A73 – RIO 6 OUT  | Mix 3    |
-| 9      | Floor Mon 2 SL | Physical   | A74 – RIO 7 OUT  | Mix 4    |
-| 10     | Floor Mon 1 SR | Physical   | A81 – RIO 8 OUT  | Mix 5    |
-| 11     | Floor Mon 2 SR | Physical   | A82 – RIO 9 OUT  | Mix 6    |
-| 12     | Open           |            |                  |
-| 13     | Open           |            |                  |
-| 14     | Open           |            |                  |
-| 15     | Send to TF L   | Dante      |                  | Matrix 7 |
-| 16     | Send to TF R   | Dante      |                  | Matrix 8 |
+The Main Stereo Bus (**`ST`**) runs signal evenly to the full mains system (L, C, R, and Sub).
+
+| #   | Bus      | Purpose        | Patch Type | Path             | Notes                       |
+| --- | -------- | -------------- | ---------- | ---------------- | --------------------------- |
+| 1   | Matrix 1 | Main L         | Dante      | Tesira           |                             |
+| 2   | Matrix 2 | Main R         | Dante      | Tesira           |                             |
+| 3   | Matrix 3 | Main C         | Physical   | RIO OUT 1 → A58  |                             |
+| 4   | Matrix 4 | Sub 1          | Physical   | RIO OUT 2 → A115 |                             |
+| 5   | Matrix 5 | Sub 2          | Physical   | RIO OUT 3 → A125 |                             |
+| 6   | Mix 1    | Foldback SL    | Physical   | RIO OUT 4 → A126 |                             |
+| 7   | Mix 2    | Foldback SR    | Physical   | RIO OUT 5 → A116 |                             |
+| 8   | Mix 3    | Floor Mon 1 SL | Physical   | RIO OUT 6 → A73  | _optional_                  |
+| 9   | Mix 4    | Floor Mon 2 SL | Physical   | RIO OUT 7 → A74  | _optional_                  |
+| 10  | Mix 5    | Floor Mon 1 SR | Physical   | RIO OUT 8 → A81  | _optional_                  |
+| 11  | Mix 6    | Floor Mon 2 SR | Physical   | RIO OUT 9 → A82  | _optional_                  |
+|     |
+| 12  | Matrix 7 | Send to TF L   | Dante      |                  | Backstage and ALS as needed |
+| 13  | Matrix 8 | Send to TF R   | Dante      |                  | Backstage and ALS as needed |
