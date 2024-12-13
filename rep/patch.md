@@ -48,8 +48,8 @@ The Main Stereo Bus (**`ST`**) runs signal evenly to the full mains system (L, C
 | 3   | Matrix 3 | Main C         | Physical   | RIO OUT 1 → A58  |                             |
 | 4   | Matrix 4 | Sub 1          | Physical   | RIO OUT 2 → A115 |                             |
 | 5   | Matrix 5 | Sub 2          | Physical   | RIO OUT 3 → A125 |                             |
-| 6   | Mix 1    | Foldback SL    | Physical   | RIO OUT 4 → A126 |                             |
-| 7   | Mix 2    | Foldback SR    | Physical   | RIO OUT 5 → A116 |                             |
+| 6   | Mix 1    | Foldback SL    | Physical   | RIO OUT 4 → A116 |                             |
+| 7   | Mix 2    | Foldback SR    | Physical   | RIO OUT 5 → A126 |                             |
 | 8   | Mix 3    | Floor Mon 1 SL | Physical   | RIO OUT 6 → A73  | _optional_                  |
 | 9   | Mix 4    | Floor Mon 2 SL | Physical   | RIO OUT 7 → A74  | _optional_                  |
 | 10  | Mix 5    | Floor Mon 1 SR | Physical   | RIO OUT 8 → A81  | _optional_                  |
