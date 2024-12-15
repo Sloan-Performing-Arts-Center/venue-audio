@@ -34,9 +34,9 @@ The wall ports listed are only recommendations. You can use any wall ports, as l
 
 The Main Center should be hung at the centerline on the upstage toe pipe of catwalk 3.
 
-[[TODO get drawing and angles]]
+Focus: **43.5° down from vertical**.
 
-[[TODO verify back of speaker settings (need image)]]
+Settings:
 
 - Ch.1 Gain at detented 0dB mark
 - switch Mic/Line to Line level
@@ -50,11 +50,13 @@ The two subs should be stacked one on top of the other. The bottom unit should h
 
 Check that both subs match the following settings:
 
-- Crossover set to 110 Hz
-- Polarity set to forward
-- Gain set to 3 o'clock. (This is NOT recommended for any other system, but clipping is accounted for elsewhere in this system.)
+- Crossover set to **110 Hz**
+- Polarity set to **forward**
+- Gain set to **3 o'clock**. (This is NOT recommended for any other system, but clipping is accounted for elsewhere in this system.)
 
-[[TODO verify back of speaker settings (need image)]]
+#### Mains (Fulcrums)
+
+The fulcrum mains should be focused so that the back side of the cabinet is **22.5° down from vertical**. (We must measure from the back due to the curved grille.)
 
 ## Setting the Sound Table
 
@@ -143,13 +145,13 @@ Once the table is connected to the system, power on the console and computer.
    1. Go to the scene menu in the top left corner.
    1. Load the **`TF BASE`** scene, which is the first available.
 
+Show files should be available in their respective locations (Mac Desktop, QL5 show files drive, etc.) but [they can also be found online here](https://github.com/Sloan-Performing-Arts-Center/venue-audio/tree/main/SHOW%20FILE%20BACKUPS).
+
 ### Wireless Microphone Gain
 
 Once you have loaded the QL5 base file and the Dante patch, you should be able to control the wireless microphone gain using the console.
 
-**All microphones should be set to `??? dB` of gain.**
-
-[[TODO what is the number and does it actually not recall]]
+**Start by setting wireless microphones to `13 dB` of gain.**
 
 ## Unorganized so far??
 

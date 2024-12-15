@@ -146,3 +146,15 @@ The roaming system is made up of three primary components:
 - **Radial A/B switcher** - choose between output locations.
 
 <img width="400" alt="god mic system" src="assets/sm_mic.png" />
+
+### SM VOG Setup
+
+The Radial switcher has 2 XLR outputs, both of which need to be connected to the backstage TF-RACK.
+
+**Connect outputs A and B to a nearby wall panel**, and then **use the patch bay to connect them to TF Inputs `5` and `6`.**
+
+In the patch bay, this connection uses dedicated, labelled patch bay cables.
+
+### Listening through the mains
+
+When on Channel A, signal will be sent into the QL5 on channel 64 for distribution to the theatre sound system. In the SLOAN BASE files (dance rep), this will work automatically. If you are running a SLOAN BLANK show, you'll need to route channel 64 to wherever you need it.

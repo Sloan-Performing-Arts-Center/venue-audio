@@ -6,9 +6,9 @@ The Sloan Dance Repertory Plot is our proscenium-like setup used for dance depar
 
 This section covers specifications and setup information for audio and video systems.
 
-- [Rep Plot Setup](rep/setup.md)
-- [Full Patch Tables](rep/patch.md)
-- [Extending the Rep System](rep/extending.md)
+- [Rep Plot Setup](setup.md)
+- [Full Patch Tables](patch.md)
+- [Extending the Rep System](extending.md)
 
 ## Setup Checklist
 
