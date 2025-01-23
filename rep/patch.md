@@ -41,19 +41,22 @@
 
 The Main Stereo Bus (**`ST`**) runs signal evenly to the full mains system (L, C, R, and Sub).
 
-| #   | Bus      | Purpose        | Patch Type | Path             | Notes                       |
-| --- | -------- | -------------- | ---------- | ---------------- | --------------------------- |
-| 1   | Matrix 1 | Main L         | Dante      | Tesira           |                             |
-| 2   | Matrix 2 | Main R         | Dante      | Tesira           |                             |
-| 3   | Matrix 3 | Main C         | Physical   | RIO OUT 1 → A58  |                             |
-| 4   | Matrix 4 | Sub 1          | Physical   | RIO OUT 2 → A115 |                             |
-| 5   | Matrix 5 | Sub 2          | Physical   | RIO OUT 3 → A125 |                             |
-| 6   | Mix 1    | Foldback SL    | Physical   | RIO OUT 4 → A116 |                             |
-| 7   | Mix 2    | Foldback SR    | Physical   | RIO OUT 5 → A126 |                             |
-| 8   | Mix 3    | Floor Mon 1 SL | Physical   | RIO OUT 6 → A73  | _optional_                  |
-| 9   | Mix 4    | Floor Mon 2 SL | Physical   | RIO OUT 7 → A74  | _optional_                  |
-| 10  | Mix 5    | Floor Mon 1 SR | Physical   | RIO OUT 8 → A81  | _optional_                  |
-| 11  | Mix 6    | Floor Mon 2 SR | Physical   | RIO OUT 9 → A82  | _optional_                  |
+| #   | Bus      | Purpose        | Patch Type | Path            | Notes                       |
+| --- | -------- | -------------- | ---------- | --------------- | --------------------------- |
+| 1   | Matrix 1 | Main L         | Dante      | Tesira          |                             |
+| 2   | Matrix 2 | Main R         | Dante      | Tesira          |                             |
+| 3   | Matrix 3 | Main C         | Physical   | RIO OUT 1 → A58 |                             |
+| 4   | Matrix 4 | Sub 1          | Dante      | CAT3-2          |                             |
+| 5   | Matrix 5 | Sub 2          | Dante      | CAT3-3          |                             |
+| 6   | Mix 1    | Foldback SL    | Dante      | CAT3-1          |                             |
+| 7   | Mix 2    | Foldback SR    | Dante      | CAT3-4          |                             |
+| 8   | Mix 3    | Floor Mon 1 SL | Physical   | RIO OUT 2 → A73 | _optional_                  |
+| 9   | Mix 4    | Floor Mon 2 SL | Physical   | RIO OUT 3 → A74 | _optional_                  |
+| 10  | Mix 5    | Floor Mon 1 SR | Physical   | RIO OUT 4 → A81 | _optional_                  |
+| 11  | Mix 6    | Floor Mon 2 SR | Physical   | RIO OUT 5 → A82 | _optional_                  |
 |     |
-| 12  | Matrix 7 | Send to TF L   | Dante      |                  | Backstage and ALS as needed |
-| 13  | Matrix 8 | Send to TF R   | Dante      |                  | Backstage and ALS as needed |
+| 12  | Matrix 7 | Send to TF L   | Dante      |                 | Backstage and ALS as needed |
+| 13  | Matrix 8 | Send to TF R   | Dante      |                 | Backstage and ALS as needed |
+
+> [!NOTE]
+> Ports marked `CAT3-#` refer to the permanent 4-output panel at the center of catwalk 3. This panel is designated for the dance rep speaker plot and has labelled ports for each speaker.

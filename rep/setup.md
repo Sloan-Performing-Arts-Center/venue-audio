@@ -10,19 +10,22 @@
 
 This standard plot requires adding **5 speakers**, making 7 total including the permanent mains pair. The added 5 speakers have emphasized numbers (**_#_**) in the table below.
 
+> [!NOTE]
+> Speakers 4-7 in the table below are plugged into the permanent rep audio panel found at the center of catwalk 3. Each speaker has its own labelled port. This is denoted `CAT3-#` in the table below.
+
 | #       | Name            | Unit           | Location                             | Purpose                                          | RIO Output | Wall Port |
 | ------- | --------------- | -------------- | ------------------------------------ | ------------------------------------------------ | ---------- | --------- |
 | 1       | Main&nbsp;L     | Fulcrum DX1526 | **_permanently installed_**          |                                                  |            |           |
 | 2       | Main&nbsp;R     | Fulcrum DX1526 | **_permanently installed_**          |                                                  |            |           |
 | **_3_** | Main&nbsp;C     | Yamaha DXR12   | Catwalk 3 - US Toe Pipe              | Center fill                                      | OUT 1      | A58       |
-| **_4_** | Sub&nbsp;1      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | FORWARD (bottom) unit in cardioid stack          | OUT 2      | A115      |
-| **_5_** | Sub&nbsp;2      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | REVERSE (top) unit in cardioid stack             | OUT 3      | A125      |
-| **_6_** | Foldback&nbsp;L | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE LEFT.           | OUT 4      | A116      |
-| **_7_** | Foldback&nbsp;R | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE RIGHT.          | OUT 5      | A126      |
-| 8       | Floor Mon 1     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 6      | A73       |
-| 9       | Floor Mon 2     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 7      | A74       |
-| 10      | Floor Mon 3     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 8      | A81       |
-| 11      | Floor Mon 4     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 9      | A82       |
+| **_4_** | Sub&nbsp;1      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | FORWARD (bottom) unit in cardioid stack          |            | CAT3-2    |
+| **_5_** | Sub&nbsp;2      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | REVERSE (top) unit in cardioid stack             |            | CAT3-3    |
+| **_6_** | Foldback&nbsp;L | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE LEFT.           |            | CAT3-1    |
+| **_7_** | Foldback&nbsp;R | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE RIGHT.          |            | CAT3-4    |
+| 8       | Floor Mon 1     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 2      | A73       |
+| 9       | Floor Mon 2     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 3      | A74       |
+| 10      | Floor Mon 3     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 4      | A81       |
+| 11      | Floor Mon 4     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 5      | A82       |
 
 More information on the **_optional_** floor stage monitors is available in [extending the system](extending.md#add-floor-wedge-stage-monitors).
 

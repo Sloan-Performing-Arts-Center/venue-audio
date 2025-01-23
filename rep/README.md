@@ -6,9 +6,9 @@ The Sloan Dance Repertory Plot is our proscenium-like setup used for dance depar
 
 This section covers specifications and setup information for audio and video systems.
 
-- [Rep Plot Setup](setup.md)
-- [Full Patch Tables](patch.md)
-- [Extending the Rep System](extending.md)
+- [Setup Instructions](setup.md)
+- [PATCH Tables](patch.md)
+- [Extending the system (adding audio inputs and outputs)](extending.md)
 
 ## Setup Checklist
 
@@ -16,7 +16,7 @@ Completing these steps in full will ensure a working system.
 
 - [ ] **[Place/hang 5 speakers](setup.md#analog-setpatch)**: Main C, Sub 1, Sub 2, Monitor L, Monitor R
 
-- [ ] **Set the patch**: 11 audio outputs. [See the "Wall Port" column in this table](setup.md#speaker-installation).
+- [ ] **Set the patch**: 5 analog patch cables. [See the "Wall Port" column in this table](setup.md#speaker-installation).
 
 - [ ] **[Set the sound table](setup.md#setting-the-sound-table)**.
 
@@ -24,13 +24,13 @@ Completing these steps in full will ensure a working system.
 
 - [ ] **[System testing](#TODO)**.
 
-  TODO need a system testing routine.
+  > TODO need a system testing routine.
 
 - [ ] **[Extend the system as needed](extending.md)**: Add analog inputs, digital inputs, additional speakers, etc.
 
-- [ ] **[Video System Setup](#TODO)**.
+- [ ] **Video System Setup**: See the [general video setup/mapping guide](../extras/qlab_video.md).
 
-  TODO new rep video setup page, AND permanent video mapping instructions page.
+  > TODO new rep video setup page.
 
 ## Overhead Speaker Plot
 
