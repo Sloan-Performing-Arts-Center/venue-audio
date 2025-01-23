@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <preset version="2.1.0">
-    <name>mbf Dante</name>
+    <name>SLOAN BASE</name>
     <description>Dante Controller preset</description>
+    <device>
+        <name>CAT3-REP-ANI4OUT-d</name>
+        <default_name>ANI4OUT-9c7c8c</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE9C7C8C</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>5368757265000000</manufacturer_id>
+        <manufacturer_name>Shure Inc.</manufacturer_name>
+        <model_id>0000000000000018</model_id>
+        <model_name>ANI4OUT</model_name>
+        <model_version>0.0.1</model_version>
+        <device_type>556C74696D6F3458</device_type>
+        <device_type_string>UltimoX4</device_type_string>
+        <friendly_name>CAT3-REP-ANI4OUT-d</friendly_name>
+        <switch_vlan value="1"/>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="static">
+                <address>135.254.16.51</address>
+                <netmask>255.255.255.0</netmask>
+                <gateway>0.0.0.0</gateway>
+                <dnsserver>0.0.0.0</dnsserver>
+            </ipv4_address>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>SL Foldback</name>
+            <subscribed_channel>59</subscribed_channel>
+            <subscribed_device>Y004-QL5</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>SUB Bottom</name>
+            <subscribed_channel>61</subscribed_channel>
+            <subscribed_device>Y004-QL5</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <name>SUB Top</name>
+            <subscribed_channel>62</subscribed_channel>
+            <subscribed_device>Y004-QL5</subscribed_device>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <name>SR Foldback</name>
+            <subscribed_channel>60</subscribed_channel>
+            <subscribed_device>Y004-QL5</subscribed_device>
+        </rxchannel>
+    </device>
     <device>
         <name>Lobby-Wireless-1-2</name>
         <default_name>ULXD4D-f27e07</default_name>
@@ -557,15 +606,23 @@
         </txchannel>
         <rxchannel danteId="1" mediaType="audio">
             <name>1 - Zone A Main Lobby</name>
+            <subscribed_channel>Spkr_Zone_A</subscribed_channel>
+            <subscribed_device>TesiraServer04604679-DAN1-12</subscribed_device>
         </rxchannel>
         <rxchannel danteId="2" mediaType="audio">
             <name>2 - Zone B - Gallery</name>
+            <subscribed_channel>Spkr_Zone_B</subscribed_channel>
+            <subscribed_device>TesiraServer04604679-DAN1-12</subscribed_device>
         </rxchannel>
         <rxchannel danteId="3" mediaType="audio">
             <name>3 - Zone D1 - Bkstg, Green Room</name>
+            <subscribed_channel>Spkr_Zone_D1</subscribed_channel>
+            <subscribed_device>TesiraServer04604679-DAN1-12</subscribed_device>
         </rxchannel>
         <rxchannel danteId="4" mediaType="audio">
             <name>4 - Zone D2 - Prod Support</name>
+            <subscribed_channel>Spkr_Zone_D2</subscribed_channel>
+            <subscribed_device>TesiraServer04604679-DAN1-12</subscribed_device>
         </rxchannel>
     </device>
     <device>
@@ -677,15 +734,23 @@
         </txchannel>
         <rxchannel danteId="1" mediaType="audio">
             <name>1 - Not Used</name>
+            <subscribed_channel>FOH_Spkr_L_LF</subscribed_channel>
+            <subscribed_device>TesiraServer04604679-DAN1-12</subscribed_device>
         </rxchannel>
         <rxchannel danteId="2" mediaType="audio">
             <name>2 - Not Used</name>
+            <subscribed_channel>FOH_Spkr_R_LF</subscribed_channel>
+            <subscribed_device>TesiraServer04604679-DAN1-12</subscribed_device>
         </rxchannel>
         <rxchannel danteId="3" mediaType="audio">
             <name>3 - Fulcrum L LF</name>
+            <subscribed_channel>Seating_Spkr_L_LF</subscribed_channel>
+            <subscribed_device>TesiraServer04604679-DAN1-12</subscribed_device>
         </rxchannel>
         <rxchannel danteId="4" mediaType="audio">
             <name>4 - Fulcrum R LF</name>
+            <subscribed_channel>Seating_Spkr_R_LF</subscribed_channel>
+            <subscribed_device>TesiraServer04604679-DAN1-12</subscribed_device>
         </rxchannel>
     </device>
     <device>
@@ -1363,9 +1428,13 @@
         </rxchannel>
         <rxchannel danteId="3" mediaType="audio">
             <name>CH 3</name>
+            <subscribed_channel>57</subscribed_channel>
+            <subscribed_device>Y004-QL5</subscribed_device>
         </rxchannel>
         <rxchannel danteId="4" mediaType="audio">
             <name>CH 4</name>
+            <subscribed_channel>58</subscribed_channel>
+            <subscribed_device>Y004-QL5</subscribed_device>
         </rxchannel>
         <rxchannel danteId="5" mediaType="audio">
             <name>CH 5</name>
@@ -1710,23 +1779,15 @@
         </rxchannel>
         <rxchannel danteId="6" mediaType="audio">
             <name>RIO_3224_06</name>
-            <subscribed_channel>06</subscribed_channel>
-            <subscribed_device>Y004-QL5</subscribed_device>
         </rxchannel>
         <rxchannel danteId="7" mediaType="audio">
             <name>RIO_3224_07</name>
-            <subscribed_channel>07</subscribed_channel>
-            <subscribed_device>Y004-QL5</subscribed_device>
         </rxchannel>
         <rxchannel danteId="8" mediaType="audio">
             <name>RIO_3224_08</name>
-            <subscribed_channel>08</subscribed_channel>
-            <subscribed_device>Y004-QL5</subscribed_device>
         </rxchannel>
         <rxchannel danteId="9" mediaType="audio">
             <name>RIO_3224_09</name>
-            <subscribed_channel>09</subscribed_channel>
-            <subscribed_device>Y004-QL5</subscribed_device>
         </rxchannel>
         <rxchannel danteId="10" mediaType="audio">
             <name>RIO_3224_10</name>
@@ -2123,28 +2184,28 @@
             <subscribed_device>Sound-iMac-2</subscribed_device>
         </rxchannel>
         <rxchannel danteId="25" mediaType="audio">
-            <name>25</name>
+            <name>25 *</name>
         </rxchannel>
         <rxchannel danteId="26" mediaType="audio">
-            <name>26</name>
+            <name>26 *</name>
         </rxchannel>
         <rxchannel danteId="27" mediaType="audio">
-            <name>27</name>
+            <name>27 *</name>
         </rxchannel>
         <rxchannel danteId="28" mediaType="audio">
-            <name>28</name>
+            <name>28 *</name>
         </rxchannel>
         <rxchannel danteId="29" mediaType="audio">
-            <name>29</name>
+            <name>29 *</name>
         </rxchannel>
         <rxchannel danteId="30" mediaType="audio">
-            <name>30</name>
+            <name>30 *</name>
         </rxchannel>
         <rxchannel danteId="31" mediaType="audio">
-            <name>31</name>
+            <name>31 *</name>
         </rxchannel>
         <rxchannel danteId="32" mediaType="audio">
-            <name>32</name>
+            <name>32 *</name>
         </rxchannel>
         <rxchannel danteId="33" mediaType="audio">
             <name>33</name>

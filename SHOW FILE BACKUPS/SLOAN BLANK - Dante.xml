@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <preset version="2.1.0">
-    <name>dante BLANK</name>
+    <name>SLOAN BLANK</name>
     <description>Dante Controller preset</description>
+    <device>
+        <name>CAT3-REP-ANI4OUT-d</name>
+        <default_name>ANI4OUT-9c7c8c</default_name>
+        <instance_id>
+            <device_id>001DC1FFFE9C7C8C</device_id>
+            <process_id>0</process_id>
+        </instance_id>
+        <manufacturer_id>5368757265000000</manufacturer_id>
+        <manufacturer_name>Shure Inc.</manufacturer_name>
+        <model_id>0000000000000018</model_id>
+        <model_name>ANI4OUT</model_name>
+        <model_version>0.0.1</model_version>
+        <device_type>556C74696D6F3458</device_type>
+        <device_type_string>UltimoX4</device_type_string>
+        <friendly_name>CAT3-REP-ANI4OUT-d</friendly_name>
+        <switch_vlan value="1"/>
+        <preferred_master value="false"/>
+        <samplerate>48000</samplerate>
+        <encoding>24</encoding>
+        <unicast_latency>1000</unicast_latency>
+        <interface network="0">
+            <ipv4_address mode="static">
+                <address>135.254.16.51</address>
+                <netmask>255.255.255.0</netmask>
+                <gateway>0.0.0.0</gateway>
+                <dnsserver>0.0.0.0</dnsserver>
+            </ipv4_address>
+        </interface>
+        <rxchannel danteId="1" mediaType="audio">
+            <name>SL Foldback</name>
+        </rxchannel>
+        <rxchannel danteId="2" mediaType="audio">
+            <name>SUB Bottom</name>
+        </rxchannel>
+        <rxchannel danteId="3" mediaType="audio">
+            <name>SUB Top</name>
+        </rxchannel>
+        <rxchannel danteId="4" mediaType="audio">
+            <name>SR Foldback</name>
+        </rxchannel>
+    </device>
     <device>
         <name>Lobby-Wireless-1-2</name>
         <default_name>ULXD4D-f27e07</default_name>
