@@ -1,9 +1,29 @@
+# Editing this documentation
+
+This documentation site is written in Markdown, more specifically Github-flavored Markdown (GFM). Markdown is designed to be easily readable in its original plain-text form, while also allowing for rich formatting of the text when rendered.
+
+Markdown/GFM is widely used for documentation sites, so you can find many resources online about how to write with it and render it.
+
+The below procedures highlight my recommendations.
+
+## Edit online on Github
+
+The simplest way to make small changes is to use the editor built into the Github website.
+
+1. Click the pencil icon on any docs page to open the editor.
+1. Make any changes you'd like to make.
+1. Press `Commit changes...` and write a brief message explaining what you changed.
+
+You're done!
+
 ## VSCode
 
-~~You can edit using VSCode directly in the browser. Open any docs page on GitHub and press <kbd>Shift</kbd> <kbd>.</kbd> or change the `.com` in the URL to `.dev`.~~  
-**_^^ (this is pretty new and too glitchy right now [2024-11-21])_**
+For more complex editing, it is much more efficient to download the project and edit the docs locally on your machine using Visual Studio Code.
 
-Otherwise [download it here](https://code.visualstudio.com).
+[Download VSCode here](https://code.visualstudio.com).
+
+> ~~You can edit using VSCode directly in the browser. Open any docs page on GitHub and press <kbd>Shift</kbd> <kbd>.</kbd> or change the `.com` in the URL to `.dev`.~~  
+> **This is new and too glitchy right now [2024-11-21]. You could try again if it's been awhile.**
 
 ### Downloading the project
 
@@ -25,9 +45,15 @@ Any command/action in VSCode, such as this preview button, extensions, settings,
 
 ### Extensions
 
-I configured a few extensions which make things much easier. Look for this popup in the bottom right.
+I configured some extensions which make editing much easier. Look for this popup in the bottom right.
 
 ![](img/image.png)
+
+The most important extensions are:
+
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) auto-formats the Markdown text files (removing extra spaces, standardizing tab sizes, etc.)
+- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) adds Microsoft Word-style spell-checking.
+- [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) makes the built-in preview look like Github.
 
 ---
 

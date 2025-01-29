@@ -153,4 +153,20 @@ Anything that allows superimposing images, has a simple drawing tool and a persp
 
 QLab can use Art-Net to control the projector options, most importantly power on/off and shutter open/close.
 
-TODO are these cues in the QLab template (they should be) and finish instructions
+You'll these cues in the "SYSTEM CONTROL" cue list, which is included in the [base QLab template](https://github.com/Sloan-Performing-Arts-Center/venue-audio/raw/refs/heads/main/SHOW%20FILE%20BACKUPS/SLOAN%20BASE%20-%20QLab.qlab5template).
+
+Either fire them directly, or you can create Start cues that target them and then use those in your own cue list.
+
+<img width="700" src="../assets/system_control_qlab.png" />
+
+### Hotkey shutter control
+
+During technical rehearsals, you may find it beneficial to manually open/close the projector shutter. To do this, you can arm the **hotkey shutter controls** group shown above.
+
+This will enable the keyboard shortcuts <kbd>G</kbd> and <kbd>H</kbd> for shutter open and close, respectively.
+
+&nbsp;
+
+<img width="350" src="img/image-17.png" />
+
+> How to arm/disarm a cue

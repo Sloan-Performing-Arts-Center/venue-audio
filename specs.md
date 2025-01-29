@@ -87,9 +87,11 @@ Audio can be routed to various locations throughout the building using the insta
 
 ### Controlling the backstage system with QLab
 
-The base QLab template has a cue list for controlling the backstage system.
+The base QLab template has a cue list for controlling the backstage system. ([Download the template here](https://github.com/Sloan-Performing-Arts-Center/venue-audio/raw/refs/heads/main/SHOW%20FILE%20BACKUPS/SLOAN%20BASE%20-%20QLab.qlab5template))
 
-> TODO qlab system control screenshot AND **get correct qlab template backup**
+You can either fire these directly, or you can create Start cues that target them and then use those in your own cue list.
+
+<img width="700" src="assets/system_control_qlab.png" />
 
 #### backstage on/off
 
