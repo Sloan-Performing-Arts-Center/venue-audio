@@ -121,21 +121,18 @@ The default includes:
 | ----- | --------------- | --------------- | ---------------- | ----------------------------------------------- |
 | 1     | XY Mic Pair (L) | Physical        | M57              |
 | 2     | XY Mic Pair (R) | Physical        | M58              |
-| 3     | Send from QL5   | Dante           | QL5              |
-| 4     | Send from QL5   | Dante           | QL5              |
+| 3     | Mix from QL5    | Dante           | QL5              |
+| 4     | Mix from QL5    | Dante           | QL5              |
 | 5     | SM Announce Mic | Physical        | A107 (default)   | Patch to wherever the stage manager is located. |
 | 6     | SM Page Mic     | Physical        | A108 (default)   | Patch to wherever the stage manager is located. |
 
 #### TF output channels
 
-| Output | Purpose            | Patch Type | Signal To            | Notes                       |
-| ------ | ------------------ | ---------- | -------------------- | --------------------------- |
-| 1      | Backstage Feed     | Dante      | Tesira Monitor_Sys_1 | Dante 1 (Crestron)          |
-| 2      | ALS System         | Physical   |                      |
-| 3      | Lobby Feed         | Dante      | Tesira Monitor_Sys_2 | Dante 2 (Crestron)          |
-| 4      | (Input from Patch) | Physical   |                      | Input from patch (Crestron) |
-
-TODO @chris what does output 4 mean
+| Output | Purpose        | Patch Type | Signal To            | Notes              |
+| ------ | -------------- | ---------- | -------------------- | ------------------ |
+| 1      | Backstage Feed | Dante      | Tesira Monitor_Sys_1 | Dante 1 (Crestron) |
+| 2      | ALS System     | Physical   | `ALS IN` patch port  |
+| 3      | Lobby Feed     | Dante      | Tesira Monitor_Sys_2 | Dante 2 (Crestron) |
 
 ## SM VOG/God Mic/Paging Microphone System
 

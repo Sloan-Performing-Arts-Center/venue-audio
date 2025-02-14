@@ -93,6 +93,46 @@ TODO
 
 ## Adding Effects/processing
 
-### Common ones used & what for (like the primary source enhancer)
+- Gate
+- Compressor
+- Ducker
 
-## Compression/Gate/Ducker
+&nbsp;
+
+### Primary Source Enhancer (Neve Portico 5045)
+
+<img width="500" src="assets/QL/image-5.png" />
+
+### Multi-band Compressor
+
+<img width="500" src="assets/QL/image-4.png" />
+
+## Dugan Automixer
+
+The console's automixer can be used to automatically manage the levels of up to 8 vocal microphones.
+
+**In the Sloan BASE file, the automixer is patched into FX slots GEQ1-4.**
+
+<img width="500" src="assets/QL/image-6.png" />
+
+### Patching
+
+For each microphone to be controlled, patch each into its own channel on the automixer.
+
+> **Example:**
+>
+> Mic 1 - Insert A: GEQ1A  
+> Mic 2 - Insert A: GEQ1B  
+> Mic 3 - Insert A: GEQ2A  
+> Mic 4 - Insert A: GEQ2B
+
+> [!IMPORTANT]
+> Most of the time, you should **insert the automixer Post-Fader**. If you do a pre insert, muting a channel will cause it to go unheard, but it will still affect the auto-mix gain pool (it will turn down other inputs.)
+
+### How it works
+
+The automixer is an automatic mixing tool that helps with noise reduction, clarity enhancement, and volume leveling of vocal sources, ideal for scenarios involving multiple speakers each using their own mic, particularly when participating in unscripted discussion.
+
+It uses a technique called "gain pooling." Input channels share a gain pool, and the total gain for the system can never be greater than 1—all induced volume changes are subtractive.
+
+The automixer determines how much of the pool to give to each of the channels based on their current behavior, turning down non-speaking inputs to make room for speaking inputs. If multiple inputs begin speaking at the same time, it will attempt to share the gain equally between them, leading to a roughly similar overall volume to when there was only one person talking.
