@@ -8,7 +8,7 @@ type Props = { headings: MarkdownHeading[] };
 const { headings } = Astro.props;
 ---
 
-<div class="fixed right-4 bottom-4">
+<div class="fixed right-4 bottom-4 print:hidden">
   <ContentsToggleButton
     client:load
     action="OPEN"
@@ -34,7 +34,7 @@ const { headings } = Astro.props;
       <ContentsToggleButton
         client:load
         action="CLOSE"
-        className="ml-1 cursor-pointer rounded-lg px-2.5 py-2 leading-none hover:bg-white/10 md:hidden text-lg"
+        className="ml-1 cursor-pointer rounded-lg px-2.5 py-2 text-lg leading-none hover:bg-white/10 md:hidden"
       >
         ✖︎
       </ContentsToggleButton>

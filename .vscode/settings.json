@@ -32,5 +32,10 @@
     "SPAC",
     "Tesira",
     "Tripp"
-  ]
+  ],
+  "cSpell.enabledFileTypes": {
+    "*": true,
+    "markdown": true,
+    "astro": false
+  }
 }
