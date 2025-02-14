@@ -1,0 +1,95 @@
+---
+import { type CollectionEntry, getCollection, render } from 'astro:content';
+
+import { clsx } from 'clsx';
+
+import Layout from '../components/Layout.astro';
+import PageContents from '../components/PageContents.astro';
+
+type Props = CollectionEntry<'pages'>;
+export async function getStaticPaths() {
+  const posts = await getCollection('pages');
+
+  return posts.map((post) => ({
+    params: { page: post.id },
+    props: post,
+  }));
+}
+
+const post = Astro.props;
+const { Content, headings } = await render(post);
+---
+
+<Layout {...post.data}>
+  <div class="flex flex-row">
+    <!-- PAGE CONTENT -->
+    <div
+      class={clsx(
+        'prose not-print:prose-invert container mx-auto max-w-[84ch] flex-1 overflow-x-auto p-6',
+
+        /* text */ 'text-zinc-200',
+        /* headings */ 'prose-headings:scroll-mt-20',
+        /* img */ 'prose-img:inline prose-img:my-0 prose-img:rounded-lg',
+        /* blockquote */ 'prose-blockquote:*:not-italic prose-blockquote:*:before:content-none prose-blockquote:*:after:content-none prose-blockquote:text-zinc-300 prose-blockquote:border-zinc-600',
+        /* table */ '',
+        /* hr */ 'prose-hr:border-zinc-700 prose-hr:my-8',
+        /* code */ 'prose-code:-my-0.5 prose-code:rounded-md prose-code:bg-zinc-700 prose-code:py-0.5 prose-code:px-1 prose-code:before:content-none prose-code:after:content-none',
+        /* math */ '[&_.katex-html]:sr-only',
+
+        /* alert */ '[&_.alert]:border-zinc-400 [&_.alert]:text-zinc-200 [&_.alert]:before:text-sm [&_.alert]:before:font-bold [&_.alert]:before:uppercase [&_.alert]:before:not-italic [&_.alert]:*:first:mt-2',
+
+        /* print */ 'print:[&_*]:text-black',
+      )}
+    >
+      <Content />
+    </div>
+
+    <!-- PAGE CONTENTS SIDEBAR -->
+    <PageContents {headings} />
+  </div>
+</Layout>
+
+<!-- ALERT STYLES -->
+<style>
+  .prose {
+    & :global(.alert-important) {
+      border-color: var(--color-purple-400);
+      &::before {
+        color: var(--color-purple-400) !important;
+        content: 'important';
+      }
+    }
+
+    & :global(.alert-tip) {
+      border-color: var(--color-green-400);
+      &::before {
+        color: var(--color-green-400) !important;
+        content: 'tip';
+      }
+    }
+
+    & :global(.alert-note) {
+      border-color: var(--color-cyan-400);
+      &::before {
+        color: var(--color-cyan-400) !important;
+        content: 'note';
+      }
+    }
+
+    & :global(.alert-warning) {
+      border-color: var(--color-amber-400);
+      &::before {
+        color: var(--color-amber-400) !important;
+        content: 'warning';
+      }
+    }
+
+    & :global(.alert-caution) {
+      border-color: var(--color-red-400);
+      &::before {
+        color: var(--color-red-400) !important;
+        content: 'caution';
+      }
+    }
+  }
+</style>

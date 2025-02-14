@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "prettier-plugin-astro",
+    "prettier-plugin-tailwindcss"
+  ],
+  "tailwindFunctions": [
+    "clsx",
+    "clmx"
+  ],
+  "overrides": [
+    {
+      "files": "*.astro",
+      "options": {
+        "parser": "astro"
+      }
+    }
+  ],
+  "singleQuote": true
+}

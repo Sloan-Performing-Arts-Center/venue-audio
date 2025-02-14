@@ -1,0 +1,13 @@
+---
+import Layout from '../components/Layout.astro';
+
+const baseUrl = import.meta.env.BASE_URL;
+---
+
+<Layout>
+  <div class="flex flex-col items-center justify-center">
+    <a href={baseUrl} class="text-center italic hover:underline">
+      404 not found
+    </a>
+  </div>
+</Layout>

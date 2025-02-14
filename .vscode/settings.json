@@ -1,5 +1,17 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.workingDirectories": [".site"],
+  "prettier.documentSelectors": [".site/**/*.astro"],
+
+  "tailwindCSS.experimental.classRegex": [
+    ["clsx\\(([^;]*);", "'([^']*)'"],
+    ["clsx\\(([^;]*);", "\"([^\"]*)\""],
+    ["clsx\\(([^;]*);", "\\`([^\\`]*)\\`"],
+    ["clmx\\(([^;]*);", "'([^']*)'"],
+    ["clmx\\(([^;]*);", "\"([^\"]*)\""],
+    ["clmx\\(([^;]*);", "\\`([^\\`]*)\\`"]
+  ],
+
   "cSpell.words": [
     "automixer",
     "Bézier",
