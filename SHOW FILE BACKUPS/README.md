@@ -21,8 +21,7 @@ These files contain preset patches for wireless microphones, basic QLab routing,
 
 Sloan blank files are designed for maximum flexibility. They contain the minimum setup required for system functionality.
 
-They contain basic amp/backstage system routing, and nothing else.  
- The QL5 show file has an additional scene with 16 QLab inputs, designed for theatrical performances.
+The QL5 show file has an additional scene with 16 QLab inputs, designed for theatrical performances.
 
 Additional notes:
 
@@ -47,4 +46,4 @@ Additional notes:
 
   You will always need to tweak the edges in the `Warping` tab, to account for minute changes in hang position.
 
-- Otherwise, [**create your own mapping!**](../extras/qlab_video.md)
+- Otherwise, [**create your own mapping!**](https://sloan-performing-arts-center.github.io/venue-audio/extras/qlab_video)
