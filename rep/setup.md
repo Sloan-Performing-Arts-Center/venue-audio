@@ -148,7 +148,7 @@ Once the table is connected to the system, power on the console and computer.
    1. Go to the scene menu in the top left corner.
    1. Load the **`TF BASE`** scene, which is the first available.
 
-Show files should be available in their respective locations (Mac Desktop, QL5 show files drive, etc.) but [they can also be found online here](https://github.com/Sloan-Performing-Arts-Center/venue-audio/tree/main/SHOW%20FILE%20BACKUPS).
+Show files should be available in their respective locations (Mac Desktop, QL5 show files drive, etc.) but [they can also be found online here](https://github.com/Sloan-Performing-Arts-Center/venue-audio/tree/main/SHOW%20FILE%20BACKUPS#readme).
 
 ### Wireless Microphone Gain
 

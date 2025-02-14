@@ -4,7 +4,7 @@ Common errors with the audio, control, and video systems are found here.
 
 ## Corrupt or Broken Show Files
 
-If you suspect a base show file is broken, backups for all show files can be found in [this folder](https://github.com/Sloan-Performing-Arts-Center/venue-audio/tree/main/SHOW%20FILE%20BACKUPS).
+If you suspect a base show file is broken, [backups for all show files can be found here](https://github.com/Sloan-Performing-Arts-Center/venue-audio/tree/main/SHOW%20FILE%20BACKUPS).
 
 ## Network Connection Issues on Mac
 
