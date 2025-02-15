@@ -4,13 +4,15 @@ Browse these docs on [the website](https://sloan-performing-arts-center.github.i
 
 ## Table of Contents
 
-- [**Permanent Specifications**](specs.md)
-- [**Dance Rep Plot (audio/video)**](rep/README.md)
+- [Permanent Specifications](specs.md)
+- [Dance Rep Plot (audio/video)](rep/README.md)
   - [Rep Plot Setup](rep/setup.md)
   - [Extending the Rep System](rep/extending.md)
   - [Full Patch Tables](rep/patch.md)
-- [**Troubleshooting**](troubleshooting.md)
-- [**QLab Video & Surface Mapping**](extras/qlab_video.md)
+- [IP Networks](networking.md)
+- [Troubleshooting](troubleshooting.md)
+- [QLab Video & Surface Mapping](extras/qlab_video.md)
+- [Yamaha QL5 Usage & Tips](QL5.md)
 
 ## Helpful Shortcuts
 

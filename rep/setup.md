@@ -154,10 +154,21 @@ Show files should be available in their respective locations (Mac Desktop, QL5 s
 
 Once you have loaded the QL5 base file and the Dante patch, you should be able to control the wireless microphone gain using the console.
 
-**Start by setting wireless microphones to `13 dB` of gain.**
+**Start by setting wireless microphones to `13 dB` of gain.** (Wireless gain is not recalled in the show file.)
 
-## Unorganized so far??
+## Additional Setup
 
-- explain preset PZM inputs
-- explain SM VOG setup
-  - link to SM VOG explanation in permanent spec
+### SM Voice of God (VOG) Mic
+
+Ensure the SM VOG is set up and working, both backstage and through the mains.  
+[See instructions here](../specs.md#sm-voggod-micpaging-microphone-system).
+
+### PZM Stage Mics
+
+Four Shure Beta 91A pressure-zone microphones are available to be used as foot mics/tap mics. They are generally placed along the downstage edge of the proscenium.
+
+Plug them into wall ports M21-24. They will come through on channels 5-8.  
+([See the input patch table](patch.md#ql5-console-inputs).)
+
+> [!NOTE]
+> On the console, the PZM mic channels have all parameters linked except for their faders. You can EQ them together and process them together, but still control individual levels as you wish.

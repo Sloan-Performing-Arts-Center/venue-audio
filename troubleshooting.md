@@ -49,4 +49,4 @@ The distributor is a [Reolink NVR](https://reolink.com/us/product/rln8-410/), sh
 
 **Use the power switch on the back side to flip the power off and on again.** Wait a few seconds for the unit to reboot.
 
-![Reolink box](assets/reolink.png)
+<img width="300" src="assets/reolink.png" />

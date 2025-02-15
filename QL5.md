@@ -28,9 +28,9 @@ You can find the QL5 Manual [here](https://usa.yamaha.com/products/proaudio/mixe
 
 ## Navigating with User-Defined Keys (UDKs)
 
-Some features/pages are more easily accessed using user-defined hard keys to the right of the screen.
+Some features/pages can be accessed more easily using the user-defined hard keys to the right of the screen.
 
-### Common UDK Uses
+### Recommended UDK Uses
 
 1. **Use `UDK 1` as a universal "Home" button**. No matter what menu you're in, this will return you to the default screen state.
 
@@ -61,13 +61,16 @@ The base template includes a number of preset UDKs:
 | 11  | Previous UDK bank        |
 | 12  | Next UDK bank            |
 
-If you only remember one, remember **`UDK 7`**, which will show you this list on screen.
+> [!TIP]
+> If you only remember one, remember **`UDK 7`**, which will show you this list on screen.
 
 ---
 
 ## Mounting Devices
 
-Dante is a protocol for running audio signal between devices on the network. **However, Dante does not pass any control messages between devices.** If you'd just like to pass audio to/from the QL5, **you do not need to mount the device.**
+Dante is used to run audio signal between devices on the network. However, **Dante does not pass any control messages between devices.**
+
+If you only need to pass audio to/from the QL5, **you do not need to mount the device.**
 
 If you need to control the device, here's how to mount it.
 
@@ -131,7 +134,7 @@ For each microphone to be controlled, patch each into its own channel on the aut
 
 ### How it works
 
-The automixer is an automatic mixing tool that helps with noise reduction, clarity enhancement, and volume leveling of vocal sources, ideal for scenarios involving multiple speakers each using their own mic, particularly when participating in unscripted discussion.
+The Dugan automixer is an automatic mixing tool that helps with noise reduction, clarity enhancement, and volume leveling of vocal sources, ideal for scenarios involving multiple speakers each using their own mic, particularly when participating in unscripted discussion.
 
 It uses a technique called "gain pooling." Input channels share a gain pool, and the total gain for the system can never be greater than 1—all induced volume changes are subtractive.
 

@@ -157,3 +157,25 @@ In the patch bay, this connection uses dedicated, labelled patch bay cables.
 ### Listening through the mains
 
 When on Channel A, signal will be sent into the QL5 on channel 64 for distribution to the theatre sound system. In the SLOAN BASE files (dance rep), this will work automatically. If you are running a SLOAN BLANK show, you'll need to route channel 64 to wherever you need it.
+
+## SM Video Monitor
+
+The stage management video system allows the SM to monitor up to 4 live camera feeds in the space. The primary camera supports infrared view during blackouts.
+
+### Basic setup
+
+By default, the camera output should be routed to wall port `D108`. Plugging the SM video monitor into this wall port is usually all you need to get up and running.
+
+### System overview
+
+Up to 4 live camera feeds (1 permanently installed) are routed over ethernet lines into the central Reolink box shown below. It can be found in the patch bay rack on the right side.
+
+The stage management video signal comes out of the patch bay from the ethernet port marked `CAM OUT`. Use an HDMI ethernet receiver at the monitor to show the signal.
+
+<img width="300" src="assets/reolink.png" />
+
+> Reolink video system
+
+### Frozen video feed?
+
+See [troubleshooting](troubleshooting.md#sm-video-feed-is-frozen).

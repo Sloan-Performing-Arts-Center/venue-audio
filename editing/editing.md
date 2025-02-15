@@ -4,7 +4,7 @@ This documentation site is written in Markdown, more specifically Github-flavore
 
 Markdown/GFM is widely used for documentation sites, so you can find many resources online about how to write with it and render it.
 
-The below procedures highlight my recommendations.
+The procedures below highlight my recommendations.
 
 ## Edit online on Github
 
