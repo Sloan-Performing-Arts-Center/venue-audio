@@ -2,6 +2,8 @@ import { glob } from 'astro/loaders';
 import { defineCollection, z } from 'astro:content';
 import { ASTRO_FOLDER_NAME } from '../../CONFIGURATION';
 
+const isDev = import.meta.env.DEV;
+
 const pages = defineCollection({
   loader: glob({
     base: '..',
@@ -22,7 +24,7 @@ export const collections = { pages };
 function pathToSlug(path: string) {
   let slug = path
     .replace(/((?:\/|^)readme)?\.md$/i, '$1')
-    .replace(/readme$/i, 'index');
+    .replace(/readme$/i, isDev ? '' : 'index');
   if (!slug.length) slug = '/';
   return slug;
 }
