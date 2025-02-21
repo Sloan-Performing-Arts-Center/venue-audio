@@ -83,7 +83,7 @@ Run the following cables to connect the sound table into the house system.
 
 #### Dante Audio:
 
-1. **Dante to console.**
+1. **Dante to QL5.**
 
    Run 2 ethernet lines: Dante Primary and Dante Secondary. Use the dedicated Dante Primary/Secondary ports on the wall panel.
 
@@ -96,7 +96,7 @@ Run the following cables to connect the sound table into the house system.
 
 #### Control Network:
 
-1. **Control to network switch** <- D102.
+1. **Control to network switch** ← D102.
 
    Run ethernet into the portable network switch from **wall panel port D102**. (This should be permanently connected to the control network.)
 
@@ -140,7 +140,7 @@ Once the table is connected to the system, power on the console and computer.
 
    1. Open **Dante Controller** on the Mac.
    1. **WAIT** for devices to show up on screen. If they don't, see [troubleshooting](../troubleshooting.md#network-connection-issues-on-mac).
-   1. Use the Load Preset option (File menu) to load `Desktop/Dante Presets/SLOAN BASE.xml`.
+   1. Use the Load Preset option (File menu) to load `Desktop/SYSTEM PRESETS/SLOAN BASE.xml`.
    1. Click OK on the popup (use the default options that come up.)
 
 1. TF-RACK Base Scene.

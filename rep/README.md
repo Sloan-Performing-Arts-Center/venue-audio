@@ -14,23 +14,21 @@ This section covers specifications and setup information for audio and video sys
 
 Completing these steps in full will ensure a working system.
 
-- [ ] **[Place/hang 5 speakers](setup.md#analog-setpatch)**: Main C, Sub 1, Sub 2, Monitor L, Monitor R
+1. **[Place/hang 5 speakers](setup.md#analog-setpatch)**: Main C, Sub 1, Sub 2, Monitor L, Monitor R
 
-- [ ] **Set the patch**: 5 analog patch cables. [See the "Wall Port" column in this table](setup.md#speaker-installation).
+1. **Set the patch**: 5 analog patch cables. [See the "Wall Port" column in this table](setup.md#speaker-installation).
 
-- [ ] **[Set the sound table](setup.md#setting-the-sound-table)**.
+1. **[Set the sound table](setup.md#setting-the-sound-table)**.
 
-- [ ] **[Load base show files](setup.md#load-all-base-show-files)**.
+1. **[Load base show files](setup.md#load-all-base-show-files)**.
 
-- [ ] **[System testing](#TODO)**.
+1. **[System testing](#TODO)**.
 
-  > TODO need a system testing routine.
+   > TODO need a system testing routine.
 
-- [ ] **[Extend the system as needed](extending.md)**: Add analog inputs, digital inputs, additional speakers, etc.
+1. **[Extend the system as needed](extending.md)**: Add analog inputs, digital inputs, additional speakers, etc.
 
-- [ ] **Video System Setup**: See the [general video setup/mapping guide](../extras/qlab_video.md).
-
-  > TODO new rep video setup page.
+1. **Video System Setup**: See the [general video setup/mapping guide](../extras/qlab_video.md).
 
 ## Overhead Speaker Plot
 

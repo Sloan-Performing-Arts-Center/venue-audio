@@ -13,6 +13,7 @@ Browse these docs on [the website](https://sloan-performing-arts-center.github.i
 - [Troubleshooting](troubleshooting.md)
 - [QLab Video & Surface Mapping](extras/qlab_video.md)
 - [Yamaha QL5 Usage & Tips](QL5.md)
+- [Extras (additional in-depth guides)](extras/)
 
 ## Helpful Shortcuts
 
