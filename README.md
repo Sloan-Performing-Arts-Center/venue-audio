@@ -9,11 +9,14 @@ Browse these docs on [the website](https://sloan-performing-arts-center.github.i
   - [Rep Plot Setup](rep/setup.md)
   - [Extending the Rep System](rep/extending.md)
   - [Full Patch Tables](rep/patch.md)
+  - [Projections Guide: Creating media](rep/projections.md)
 - [IP Networks](networking.md)
 - [Troubleshooting](troubleshooting.md)
-- [QLab Video & Surface Mapping](extras/qlab_video.md)
 - [Yamaha QL5 Usage & Tips](QL5.md)
 - [Extras (additional in-depth guides)](extras/)
+  - [QLab Video & Surface Mapping](extras/qlab_video.md)
+  - [TouchOSC Go Controller for QLab](extras/control.md)
+  - [Using QLab Audition Mode (remote headphone feed)](extras/audition.md)
 
 ## Helpful Shortcuts
 

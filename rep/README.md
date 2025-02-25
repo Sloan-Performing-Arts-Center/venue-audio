@@ -7,8 +7,14 @@ The Sloan Dance Repertory Plot is our proscenium-like setup used for dance depar
 This section covers specifications and setup information for audio and video systems.
 
 - [Setup Instructions](setup.md)
+
 - [PATCH Tables](patch.md)
+
 - [Extending the system (adding audio inputs and outputs)](extending.md)
+
+- [Projections Guide (instructions for choreographers)](projections.md)
+
+  > This guide has instructions for making media files to fit on the cyc. Send it to those planning events as needed.
 
 ## Setup Checklist
 
@@ -22,13 +28,13 @@ Completing these steps in full will ensure a working system.
 
 1. **[Load base show files](setup.md#load-all-base-show-files)**.
 
-1. **[System testing](#TODO)**.
-
-   > TODO need a system testing routine.
+1. **System testing**. Run signal through all speakers to ensure they're working correctly.
 
 1. **[Extend the system as needed](extending.md)**: Add analog inputs, digital inputs, additional speakers, etc.
 
-1. **Video System Setup**: See the [general video setup/mapping guide](../extras/qlab_video.md).
+1. **[Video System Setup](setup.md#qlab-load-the-cyc-projection-map)**: Import the QLab video mapping and adjust it for the new hang.
+
+   See the [general video setup/mapping guide](../extras/qlab_video.md) for more details.
 
 ## Overhead Speaker Plot
 

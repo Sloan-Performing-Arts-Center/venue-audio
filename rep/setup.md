@@ -156,7 +156,9 @@ Once you have loaded the QL5 base file and the Dante patch, you should be able t
 
 **Start by setting wireless microphones to `13 dB` of gain.** (Wireless gain is not recalled in the show file.)
 
-## Additional Setup
+---
+
+## Additional Audio Setup
 
 ### SM Voice of God (VOG) Mic
 
@@ -172,3 +174,45 @@ Plug them into wall ports M21-24. They will come through on channels 5-8.
 
 > [!NOTE]
 > On the console, the PZM mic channels have all parameters linked except for their faders. You can EQ them together and process them together, but still control individual levels as you wish.
+
+## QLab: Load the Cyc Projection Map
+
+Make sure you've first [hung and focused the projector correctly](../extras/qlab_video.md#projector-configurationplacement).
+
+Then, you'll need to import and refine the base surface mapping for the dance rep cyc position.  
+(Get it from "SYSTEM PRESETS" or [download it here](https://github.com/Sloan-Performing-Arts-Center/venue-audio/tree/main/SHOW%20FILE%20BACKUPS#readme).)
+
+### Importing the starter file
+
+1. **Import the video mapping**.
+
+   Drag the `.qlabsettings` file into the video stages window of QLab. You should see a new **cyc projection** stage appear.
+
+   <img width="600" src="img/image.png" />
+
+1. **Set the mapping as default**.
+
+   Go to Cue Templates, and change the default video output to your new stage.
+
+   <img width="600" src="img/image-1.png" />
+
+### Adjusting the mapping
+
+> [!IMPORTANT]
+> You'll need to adjust the map each time this plot is hung.
+
+The imported video map should be roughly lined up with the cyc, but you'll need to fine-tune based on your current setup.
+
+1. **Show the alignment grid**.
+
+   Click `Edit...` on the video stage, and show the grid in the Grid Options menu. Choose dark or light as needed.
+
+   <img width="550" src="../extras/img/image-6.png" />
+
+1. **Map the corners**. In the `Warping` tab, adjust the corners of the screen to line up with the cyc. You can use the arrow keys to make fine adjustments.
+
+   It's often easiest to do this by walking right up to the cyc itself.
+
+1. **Fine adjustments using Bezier warp**.
+
+   Once you've lined up the corners, switch the `Warp Type` to **Bezier**. This will give you many more control points to adjust.
