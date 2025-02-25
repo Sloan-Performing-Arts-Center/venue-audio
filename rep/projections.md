@@ -14,7 +14,7 @@ Standard videos and images in the standard aspect ratio 16:9 (a.k.a. 1080p, 4k, 
 
 ### Preparing media for SPAC
 
-For best results, you should try to export all images and videos at a size of **1080x810px**. This way you can choose how to display each video file.
+For best results, you should try to export all images and videos at a size of **1080x810px**. This gives you full control over how to display each video file.
 
 When preparing media, reference the image at the top of this page to make sure your source will fit the cyc, and that nothing important is being cut off at the edges of the screen. (You can also download the alignment grid [below](#download-the-reference-grid).)
 
