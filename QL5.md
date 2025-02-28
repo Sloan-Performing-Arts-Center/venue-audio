@@ -64,6 +64,22 @@ The base template includes a number of preset UDKs:
 > [!TIP]
 > If you only remember one, remember **`UDK 7`**, which will show you this list on screen.
 
+## Connecting with QL Editor
+
+You can use [QL Editor](https://usa.yamaha.com/products/proaudio/software/ql_editor/index.html) to remotely control the console from any computer.
+
+1. **Connect your computer to the control network**. Wifi or ethernet is fine.
+
+1. Open QL Editor, and navigate to **`File > System Setup...`**
+
+1. Enter the console IP address: `192.168.0.99` and click OK. ([more on IP addresses...](networking.md))
+
+   <img width="560" src="assets/QL/image-7.png" />
+
+1. Wait for the `ONLINE` switch to turn blue, then click `RE-SYNC`.
+
+   <img width="186" src="assets/QL/image-8.png" />
+
 ---
 
 ## Mounting Devices

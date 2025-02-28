@@ -38,7 +38,7 @@ Connected devices include the audio console, QLab Macs, projectors, iPads, and t
 
 The control network has a permanently-installed wireless access point for use with iPads and other computers.
 
-This is a hidden network—see network details physically posted. The network SSID is `Sloan Audio`.
+This is a hidden network—network details are physically posted in the patch bay and near the audio console. The network SSID is `Sloan Audio`.
 
 ### Patch bay access (point-to-port ports)
 
