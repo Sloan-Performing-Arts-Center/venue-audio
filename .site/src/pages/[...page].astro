@@ -32,7 +32,7 @@ const title = headings?.[0]?.text;
         /* headings */ 'prose-headings:scroll-mt-20',
         /* a */ 'prose-a:font-normal',
         /* img */ 'prose-img:inline prose-img:my-0 prose-img:rounded-lg',
-        /* blockquote */ 'prose-blockquote:*:not-italic prose-blockquote:*:before:content-none prose-blockquote:*:after:content-none prose-blockquote:text-zinc-300 prose-blockquote:border-zinc-600',
+        /* blockquote */ 'prose-blockquote:*:not-italic prose-blockquote:*:before:content-none prose-blockquote:*:after:content-none prose-blockquote:text-zinc-400 prose-blockquote:border-zinc-600 prose-blockquote:font-normal',
         /* table */ '',
         /* hr */ 'prose-hr:my-8',
         /* code */ 'prose-code:-my-0.5 prose-code:rounded-md prose-code:bg-zinc-700 prose-code:py-0.5 prose-code:px-1 prose-code:before:content-none prose-code:after:content-none',
@@ -45,6 +45,21 @@ const title = headings?.[0]?.text;
       )}
     >
       <Content />
+
+      <div class="mt-20 flex flex-col p-2">
+        {
+          post.filePath && (
+            <a
+              href={`https://github.com/Sloan-Performing-Arts-Center/venue-audio/blob/main${post.filePath.slice(2)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-right text-sm text-zinc-500 italic hover:underline"
+            >
+              Edit this page on Github
+            </a>
+          )
+        }
+      </div>
     </div>
 
     <!-- PAGE CONTENTS SIDEBAR -->

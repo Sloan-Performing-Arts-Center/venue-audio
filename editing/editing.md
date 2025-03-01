@@ -16,76 +16,117 @@ The simplest way to make small changes is to use the editor built into the Githu
 
 You're done!
 
-## VSCode
+> [!CAUTION]
+> Be careful about **changing heading names** using the online editor!
+>
+> Links to sections are based on their heading text, so changing a heading name will also change its link. **Any links to that heading will no longer function.** You can [easily avoid this in VSCode](#renaming-headings).
+
+## Editing using VSCode
 
 For more complex editing, it is much more efficient to download the project and edit the docs locally on your machine using Visual Studio Code.
 
 [Download VSCode here](https://code.visualstudio.com).
 
-> ~~You can edit using VSCode directly in the browser. Open any docs page on GitHub and press <kbd>Shift</kbd> <kbd>.</kbd> or change the `.com` in the URL to `.dev`.~~  
-> **This is new and too glitchy right now [2024-11-21]. You could try again if it's been awhile.**
-
-### Downloading the project
-
-You can access the Github project using [Github Desktop](https://desktop.github.com/download/). Their ["Getting Started" guide](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop) will get you through the basics.
-
-After you connect to the Github project, VSCode can manage and upload changes all by itself.
-
-<img width="403" src="img/image-3.png" />
-
-> _you can also open the project using this button on the website._
-
-### Preview
-
-Use the preview button in the top right corner to show the document side-by-side as you edit.
-
-![](img/image-1.png)
-
-Any command/action in VSCode, such as this preview button, extensions, settings, multiple cursors, formatting, etc can also be done using the Command Bar: <kbd>Cmd</kbd> <kbd>Shift</kbd> <kbd>P</kbd>.
-
 ### Extensions
 
-I configured some extensions which make editing much easier. Look for this popup in the bottom right.
-
-![](img/image.png)
-
-The most important extensions are:
+Before you do anything else, you'll need to install few extensions to work with this project:
 
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) auto-formats the Markdown text files (removing extra spaces, standardizing tab sizes, etc.)
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) adds Microsoft Word-style spell-checking.
 - [Github Markdown Preview](https://marketplace.visualstudio.com/items?itemName=bierner.github-markdown-preview) makes the built-in preview look like Github.
+- [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath) adds support for a few math equations in these docs.
 
----
+### Accessing the Project
 
-### Auto Formatter
+You can connect directly to the Github project using VSCode and access most features of the program. If you're already comfortable with Git/Github, you're welcome to skip these steps and clone the project locally instead. Otherwise, follow these steps:
 
-Automatically format the text using <kbd>Opt</kbd> <kbd>Shift</kbd> <kbd>F</kbd>. Or right click > `Format Document`.
+1. **Open the "Remote Window" menu**.
 
-OR open settings and enable for `Format on Save`, which will format the document every time you <kbd>Cmd</kbd> <kbd>S</kbd>.
+   <img width="298" src="img/image-4.png" />
 
-### Line Wrapping
+1. **Choose `Open Remote Repository...`**
 
-Use <kbd>Opt</kbd> <kbd>Z</kbd> to toggle "Word Wrap", which determines whether long lines of text wrap onto a new line (this is only applied on your computer).
+   <img width="617" src="img/image-5.png" />
 
-When writing text, you'll want it ON, so that you can see everything you're writing.
+1. **Enter the project's Github URL**. (You might be prompted to log into your Github account.)
 
-When editing tables, you'll want it OFF, so that the table formatting is clear.
+   ```
+   https://github.com/Sloan-Performing-Arts-Center/venue-audio.git
+   ```
 
-### Saving Changes
+   <img width="617" src="img/image-6.png" />
 
-Use the **Source Control** tab to manage your changes and upload them to the GitHub project.
+### User Interface
 
-You need to do three things to add your changes to the online project:
+VSCode has many features, most of which you can ignore. Here are the ones you need to know:
 
-1. (OPTIONAL) **Stage your changes**. If you don't manually stage changes, all changes will be staged for you.
+<img width="1549" src="img/image-7.png" />
 
-   Staged changes are the changes that will be committed and uploaded; any unstaged changes will remain on your computer and can be uploaded later.
+1. **File Explorer**: Browse project files in this sidebar on the left.
+2. **Source Control**: Use this tab to upload your changes to the website.
+3. **Markdown Preview**: When you open a Markdown file, click this button to open the page preview on the right side (as shown above).
+4. **Document Outline**: Click here to jump to any heading on the page.
+
+### Important: Auto Formatting
+
+Whenever you edit a page, you should run the auto-formatter to keep the Markdown text document standardized.
+
+**Right-click > `Format Document` to format the file.** You can also use keyboard shortcut <kbd>Opt</kbd> <kbd>Shift</kbd> <kbd>F</kbd>.
+
+Please always format the document before you upload your changes!
+
+### Saving your Changes
+
+Use the [**Source Control** tab](#user-interface) to manage your changes and upload them to the GitHub project.
+
+<img width="314" src="img/image-8.png" />
+
+> The Source Control tab. Next to each file, use the plus button to "stage" it, or the back arrow to discard changes.
+
+**To upload your changes, follow these steps**:
+
+1. **Stage your changes**. Staged changes are the changes that will be committed and uploaded; any unstaged changes will remain on your computer and can be uploaded later.
 
    You can use the `+` button next to a file or click to open the file and stage only a portion of that file.
 
-1. **Create a commit**. Enter a commit message (a short explanation of what you changed) then press the blue `✅ Commit` button.
+   > [!TIP]
+   > If you don't manually stage changes, all changes will be staged for you.
 
-1. **Upload the commit**. You can now press `Sync Changes` to upload your local copy to GitHub.
+1. **Write what you changed**. Type a commit message (a short explanation of what you changed) in the message box at the top of the panel.
+
+1. **Press `Commit & Push**. Your changes will be uploaded!
+
+### Line Wrapping
+
+Use <kbd>Opt</kbd> <kbd>Z</kbd> (or `View > Word Wrap`) to toggle "Word Wrap", which determines whether long lines of text wrap onto a new line (this is only applied on your computer).
+
+**When writing text, you'll want it ON**, so that you can see everything you're writing.
+
+**When editing tables, you'll want it OFF**, so that the table formatting is clear.
+
+### Linking to sections & Renaming sections
+
+Headings are marked by starting a line with 1-4 hashes `#`.
+
+When you create a heading, it is automatically added to the page outline, and the heading gets its own direct URL.
+
+When you create a `[link](https://url.com)`, **you can link directly between pages and headings**.
+
+You can **browse for pages and subheadings** by putting your cursor inside the parentheses for a link, and pressing <kbd>Ctrl</kbd> <kbd>Space</kbd>.
+
+Relative links are made up of a relative file path and a heading hash, separated by a `#`:
+
+<img width="725" src="img/image-2.png" />
+
+#### Renaming Headings
+
+> [!CAUTION]
+> Heading links are created based on the heading text—if you change the heading title, it will break any links you've made.
+
+**If you need to change a heading title, VSCode can automatically update links for you.**  
+Just select the heading text, press <kbd>F2</kbd>, then enter your new name. All links will be auto-updated if needed.
+
+You can also access the rename dialog by right-clicking a heading and choosing `Rename Symbol`.
 
 ### Manipulating Text
 
@@ -110,30 +151,6 @@ Move the current line (or selection) using <kbd>Opt</kbd> <kbd>Up</kbd>/<kbd>Dow
 Hold <kbd>Opt</kbd> <kbd>Shift</kbd> while dragging to create a box selection.
 
 ![](img/v1.gif)
-
-### Linking to sections/Renaming sections
-
-Headings are marked by starting a line with 1-4 hashes `#`.
-
-When you create a heading, it is automatically added to the page outline, and the heading gets its own direct URL.
-
-When you create a `[link](https://url.com)`, **you can link directly between pages and headings**.
-
-You can **browse for pages and subheadings** by putting your cursor inside the parentheses for a link, and pressing <kbd>Ctrl</kbd> <kbd>Space</kbd>.
-
-Relative links are made up of a relative file path and a heading hash, separated by a `#`:
-
-<img width="725" src="img/image-2.png" />
-
-#### Renaming Headings
-
-Heading links are created based on the heading text—if you change the heading title, it will break any links you've made.
-
-**If you need to change a heading title, VSCode can automatically update links for you.**  
-Just select the heading text, press <kbd>F2</kbd>, then enter your new name. All links will be auto-updated if needed.
-
-> [!TIP]
-> You can also access the rename dialog by right-clicking a heading and choosing `Rename Symbol`.
 
 ### Snippets
 
