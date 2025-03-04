@@ -5,6 +5,7 @@ import { clsx } from 'clsx';
 
 import Layout from '../components/Layout.astro';
 import PageContents from '../components/PageContents.astro';
+import { GITHUB_URL } from '../../../CONFIGURATION';
 
 type Props = CollectionEntry<'pages'>;
 export async function getStaticPaths() {
@@ -50,10 +51,10 @@ const title = headings?.[0]?.text;
         {
           post.filePath && (
             <a
-              href={`https://github.com/Sloan-Performing-Arts-Center/venue-audio/blob/main${post.filePath.slice(2)}`}
+              href={`${GITHUB_URL}/blob/main${post.filePath.slice(2)}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="text-right text-sm text-zinc-500 italic hover:underline"
+              class="text-right text-sm text-zinc-500 italic"
             >
               Edit this page on Github
             </a>
