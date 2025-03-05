@@ -22,9 +22,8 @@ Browse these docs on [the website](https://sloan-performing-arts-center.github.i
 
 - [Backstage Audio Monitoring System (Crestron)](specs.md#backstage-audio-monitoring-tesiracrestrontf)
 - [Sound Table Setup (Dance Rep)](rep/setup.md#setting-the-sound-table)
-- [Show File Downloads](https://github.com/Sloan-Performing-Arts-Center/venue-audio/tree/main/SHOW%20FILE%20BACKUPS#readme)
 - [QL5: Default User-Defined Keys](QL5.md#default-udk-assignments)
-- [TouchOSC Go Controller for QLab](extras/control.md)
+- [Show File Downloads](https://github.com/Sloan-Performing-Arts-Center/venue-audio/tree/main/SHOW%20FILE%20BACKUPS#readme)
 
 [✏︎ Editing this documentation](editing/editing.md)
 
