@@ -10,6 +10,7 @@ Browse these docs on [the website](https://sloan-performing-arts-center.github.i
   - [Extending the Rep System](rep/extending.md)
   - [Full Patch Tables](rep/patch.md)
   - [Projections Guide: Creating media](rep/projections.md)
+- [Show File Downloads](https://github.com/Sloan-Performing-Arts-Center/venue-audio/tree/main/SHOW%20FILE%20BACKUPS#readme)
 - [IP Networks](networking.md)
 - [Troubleshooting](troubleshooting.md)
 - [Yamaha QL5 Usage & Tips](QL5.md)
@@ -30,3 +31,4 @@ Browse these docs on [the website](https://sloan-performing-arts-center.github.i
 ---
 
 → [Michael's Tasks Board](https://github.com/orgs/Sloan-Performing-Arts-Center/projects/1)
+v
