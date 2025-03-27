@@ -37,6 +37,8 @@ The wall ports listed are only recommendations. You can use any wall ports, as l
 
 The Main Center should be hung at the centerline on the upstage toe pipe of catwalk 3.
 
+<img width="319" src="img/image-2.png" />
+
 Focus: **43.5° down from vertical**.
 
 Settings:
@@ -59,7 +61,9 @@ Check that both subs match the following settings:
 
 #### Mains (Fulcrums)
 
-The fulcrum mains should be focused so that the back side of the cabinet is **22.5° down from vertical**. (We must measure from the back due to the curved grille.)
+The fulcrum mains should be focused so that the back side of the cabinet is **22.5° from vertical**. (We measure from the back due to the curved grille.)
+
+<img width="261" src="img/image-5.png" />
 
 ## Setting the Sound Table
 
