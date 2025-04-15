@@ -18,9 +18,9 @@ This standard plot requires adding **5 speakers**, making 7 total including the 
 | 1       | Main&nbsp;L     | Fulcrum DX1526 | **_permanently installed_**          |                                                  |            |           |
 | 2       | Main&nbsp;R     | Fulcrum DX1526 | **_permanently installed_**          |                                                  |            |           |
 | **_3_** | Main&nbsp;C     | Yamaha DXR12   | Catwalk 3 - US Toe Pipe              | Center fill                                      | OUT 1      | A58       |
-| **_4_** | Sub&nbsp;1      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | FORWARD (bottom) unit in cardioid stack          |            | CAT3-2    |
-| **_5_** | Sub&nbsp;2      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | REVERSE (top) unit in cardioid stack             |            | CAT3-3    |
-| **_6_** | Foldback&nbsp;L | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE LEFT.           |            | CAT3-1    |
+| **_4_** | Sub&nbsp;1      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | FORWARD (bottom) unit in cardioid stack          |            | CAT3-1    |
+| **_5_** | Sub&nbsp;2      | RCF 702-AS II  | Catwalk 3 Floor - DS Center          | REVERSE (top) unit in cardioid stack             |            | CAT3-2    |
+| **_6_** | Foldback&nbsp;L | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE LEFT.           |            | CAT3-3    |
 | **_7_** | Foldback&nbsp;R | Yamaha DXR12   | Catwalk 3 - US Midrail with side arm | monitoring for performers. STAGE RIGHT.          |            | CAT3-4    |
 | 8       | Floor Mon 1     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 2      | A73       |
 | 9       | Floor Mon 2     | Yamaha DXR12   | Stage floor                          | Stage wedge monitors. _Don't run unless needed_. | OUT 3      | A74       |

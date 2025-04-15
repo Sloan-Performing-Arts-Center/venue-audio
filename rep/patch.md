@@ -22,12 +22,12 @@
 | 16    | rio16             | Physical   | RIO IN 16       |                      |
 | 17    | AUX L             | Local      | XLR Input 31    | Stereo DI at console |
 | 18    | AUX R             | Local      | XLR Input 32    | Stereo DI at console |
-| 19    | PC Left           | Dante      | Mac Channel 63 |                      |
-| 20    | PC Right          | Dante      | Mac Channel 64 |                      |
-| 21    | QLab Left         | Dante      | Mac Channel 1  |                      |
-| 22    | QLab Right        | Dante      | Mac Channel 2  |                      |
-| 23    | QLab Aux1         | Dante      | Mac Channel 3  |                      |
-| 24    | QLab Aux2         | Dante      | Mac Channel 4  |                      |
+| 19    | PC Left           | Dante      | Mac Channel 63  |                      |
+| 20    | PC Right          | Dante      | Mac Channel 64  |                      |
+| 21    | QLab Left         | Dante      | Mac Channel 1   |                      |
+| 22    | QLab Right        | Dante      | Mac Channel 2   |                      |
+| 23    | QLab Aux1         | Dante      | Mac Channel 3   |                      |
+| 24    | QLab Aux2         | Dante      | Mac Channel 4   |                      |
 | 25    | dante25           | Dante      | Dante IN 25     |                      |
 | 26    | dante26           | Dante      | Dante IN 26     |                      |
 | 27    | dante27           | Dante      | Dante IN 27     |                      |
@@ -46,9 +46,9 @@ The Main Stereo Bus (**`ST`**) runs signal evenly to the full mains system (L, C
 | 1   | Matrix 1 | Main L         | Dante      | Tesira          |                             |
 | 2   | Matrix 2 | Main R         | Dante      | Tesira          |                             |
 | 3   | Matrix 3 | Main C         | Physical   | RIO OUT 1 → A58 |                             |
-| 4   | Matrix 4 | Sub 1          | Dante      | CAT3-2          |                             |
-| 5   | Matrix 5 | Sub 2          | Dante      | CAT3-3          |                             |
-| 6   | Mix 1    | Foldback SL    | Dante      | CAT3-1          |                             |
+| 4   | Matrix 4 | Sub 1          | Dante      | CAT3-1          |                             |
+| 5   | Matrix 5 | Sub 2          | Dante      | CAT3-2          |                             |
+| 6   | Mix 1    | Foldback SL    | Dante      | CAT3-3          |                             |
 | 7   | Mix 2    | Foldback SR    | Dante      | CAT3-4          |                             |
 | 8   | Mix 3    | Floor Mon 1 SL | Physical   | RIO OUT 2 → A73 | _optional_                  |
 | 9   | Mix 4    | Floor Mon 2 SL | Physical   | RIO OUT 3 → A74 | _optional_                  |
