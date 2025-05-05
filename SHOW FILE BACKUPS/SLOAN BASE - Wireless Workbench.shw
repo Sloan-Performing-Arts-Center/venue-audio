@@ -1,0 +1,878 @@
+<show source="ecm-m4mni-sloan" date="Mon May 5 2025" time="16:26:19" version="1.0" appl_version="7.4.0.87">
+    <show_properties version="1.0">
+        <point_of_contact_info>
+            <name/>
+            <address/>
+            <phone/>
+            <email/>
+            <remember_poc>false</remember_poc>
+        </point_of_contact_info>
+        <venue_info>
+            <name/>
+            <address/>
+            <phone/>
+            <email/>
+        </venue_info>
+        <notes/>
+    </show_properties>
+    <inventory version="2.1">
+        <device>
+            <id dcid="04885A72-FD5A-11E3-93E9-0015C5F3F612">DD4F0F45-0000-11DD-A000-000EDDCCCCCC</id>
+            <series>ULXD</series>
+            <model type="10">ULXD4D</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <production_id type="10">4210681759</production_id>
+            <firmware_version type="12">0002000800060000</firmware_version>
+            <firmware_version_valid type="1">true</firmware_version_valid>
+            <firmware_version_hosted type="12">0002000800060000</firmware_version_hosted>
+            <device_name type="10"><![CDATA[SPAC_LBY]]></device_name>
+            <mac_address type="12">000edd4f0f45</mac_address>
+            <ip_mode type="3">1</ip_mode>
+            <ip_address type="3">2281574632</ip_address>
+            <ip_subnet type="3">4294901760</ip_subnet>
+            <ip_gateway type="3">0</ip_gateway>
+            <scan_freq_step_capability type="10">;25</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;200</scan_rbw_capability>
+            <start type="3">470000</start>
+            <end type="3">534000</end>
+            <band type="10">G50</band>
+            <custom_group_channel1 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel1>
+            <custom_group_channel2 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel2>
+            <custom_group_channel3 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel3>
+            <custom_group_channel4 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel4>
+            <custom_group_channel5 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel5>
+            <custom_group_channel6 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel6>
+            <diversity type="3">0</diversity>
+            <interference_mode type="3">1</interference_mode>
+            <front_panel_lock type="1">false</front_panel_lock>
+            <power_lock type="1">false</power_lock>
+            <dc_power type="3">1</dc_power>
+            <zone type="12">Default</zone>
+            <audio_encryption_mode type="3">0</audio_encryption_mode>
+            <audio_summing_mode type="3">0</audio_summing_mode>
+            <audio_gain_lock type="1">false</audio_gain_lock>
+            <modem_mode type="1">false</modem_mode>
+            <dante_primary_network_mode type="3">1</dante_primary_network_mode>
+            <dante_primary_ip_address type="3">2281574605</dante_primary_ip_address>
+            <dante_primary_mac_address type="12">000eddf27e07</dante_primary_mac_address>
+            <dante_primary_subnet_mask type="3">4294967040</dante_primary_subnet_mask>
+            <dante_primary_default_gateway type="3">0</dante_primary_default_gateway>
+            <dante_ip_address_static_primary type="3">2281574605</dante_ip_address_static_primary>
+            <dante_ip_subnet_static_primary type="3">4294967040</dante_ip_subnet_static_primary>
+            <dante_ip_gateway_static_primary type="3">0</dante_ip_gateway_static_primary>
+            <scan_lock type="1">false</scan_lock>
+            <sync_lock type="1">false</sync_lock>
+            <channel number="1">
+                <channel_name type="10"><![CDATA[Lobby 1]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">16</audio_gain>
+                <audio_mute type="1">false</audio_mute>
+                <frequency type="3">485850</frequency>
+                <remote_name type="10"></remote_name>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_audio_mute_switch type="3">255</ir_sync_audio_mute_switch>
+                <ir_sync_tx_sensitivity type="2">-1</ir_sync_tx_sensitivity>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <ir_sync_custom_groups type="3">0</ir_sync_custom_groups>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <ir_sync_handheld_offset type="3">255</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="3">255</ir_sync_bodypack_offset>
+                <ir_sync_tx_polarity type="3">255</ir_sync_tx_polarity>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_boundary_offset type="3">255</ir_sync_boundary_offset>
+                <ir_sync_gooseneck_offset type="3">255</ir_sync_gooseneck_offset>
+                <ir_sync_boundary_led_behavior type="3">255</ir_sync_boundary_led_behavior>
+                <ir_sync_gooseneck_led_behavior type="3">255</ir_sync_gooseneck_led_behavior>
+                <ir_sync_boundgoose_switch_behavior type="3">255</ir_sync_boundgoose_switch_behavior>
+                <ir_sync_boundgoose_rf_power type="3">255</ir_sync_boundgoose_rf_power>
+                <ir_sync_boundgoose_batterytype type="3">255</ir_sync_boundgoose_batterytype>
+                <ir_sync_init_state_from_charger type="3">255</ir_sync_init_state_from_charger>
+                <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
+                <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
+                <tags type="10"></tags>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+            <channel number="2">
+                <channel_name type="10"><![CDATA[Lobby 2]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">16</audio_gain>
+                <audio_mute type="1">false</audio_mute>
+                <frequency type="3">477600</frequency>
+                <remote_name type="10"></remote_name>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_audio_mute_switch type="3">255</ir_sync_audio_mute_switch>
+                <ir_sync_tx_sensitivity type="2">-1</ir_sync_tx_sensitivity>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <ir_sync_custom_groups type="3">0</ir_sync_custom_groups>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <ir_sync_handheld_offset type="3">255</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="3">255</ir_sync_bodypack_offset>
+                <ir_sync_tx_polarity type="3">255</ir_sync_tx_polarity>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_boundary_offset type="3">255</ir_sync_boundary_offset>
+                <ir_sync_gooseneck_offset type="3">255</ir_sync_gooseneck_offset>
+                <ir_sync_boundary_led_behavior type="3">255</ir_sync_boundary_led_behavior>
+                <ir_sync_gooseneck_led_behavior type="3">255</ir_sync_gooseneck_led_behavior>
+                <ir_sync_boundgoose_switch_behavior type="3">255</ir_sync_boundgoose_switch_behavior>
+                <ir_sync_boundgoose_rf_power type="3">255</ir_sync_boundgoose_rf_power>
+                <ir_sync_boundgoose_batterytype type="3">255</ir_sync_boundgoose_batterytype>
+                <ir_sync_init_state_from_charger type="3">255</ir_sync_init_state_from_charger>
+                <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
+                <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
+                <tags type="10"></tags>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+        </device>
+        <device>
+            <id dcid="047CC022-FD5A-11E3-9825-0015C5F3F612">DD4F0729-0000-11DD-A000-000EDDCCCCCC</id>
+            <series>ULXD</series>
+            <model type="10">ULXD4Q</model>
+            <manufacturer type="10">Shure</manufacturer>
+            <production_id type="10">4210640139</production_id>
+            <firmware_version type="12">0002000800060000</firmware_version>
+            <firmware_version_valid type="1">true</firmware_version_valid>
+            <firmware_version_hosted type="12">0002000800060000</firmware_version_hosted>
+            <device_name type="10"><![CDATA[SPAC_PRM]]></device_name>
+            <mac_address type="12">000edd4f0729</mac_address>
+            <ip_mode type="3">1</ip_mode>
+            <ip_address type="3">2281574420</ip_address>
+            <ip_subnet type="3">4294901760</ip_subnet>
+            <ip_gateway type="3">2281574401</ip_gateway>
+            <scan_freq_step_capability type="10">;25</scan_freq_step_capability>
+            <scan_rbw_capability type="10">;200</scan_rbw_capability>
+            <start type="3">470000</start>
+            <end type="3">534000</end>
+            <band type="10">G50</band>
+            <custom_group_channel1 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel1>
+            <custom_group_channel2 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel2>
+            <custom_group_channel3 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel3>
+            <custom_group_channel4 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel4>
+            <custom_group_channel5 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel5>
+            <custom_group_channel6 type="12">000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</custom_group_channel6>
+            <diversity type="3">0</diversity>
+            <interference_mode type="3">1</interference_mode>
+            <front_panel_lock type="1">false</front_panel_lock>
+            <power_lock type="1">false</power_lock>
+            <dc_power type="3">1</dc_power>
+            <zone type="12">Default</zone>
+            <audio_encryption_mode type="3">0</audio_encryption_mode>
+            <audio_summing_mode type="3">0</audio_summing_mode>
+            <audio_gain_lock type="1">false</audio_gain_lock>
+            <modem_mode type="1">false</modem_mode>
+            <dante_primary_network_mode type="3">1</dante_primary_network_mode>
+            <dante_primary_ip_address type="3">2281574606</dante_primary_ip_address>
+            <dante_primary_mac_address type="12">000eddf293cb</dante_primary_mac_address>
+            <dante_primary_subnet_mask type="3">4294967040</dante_primary_subnet_mask>
+            <dante_primary_default_gateway type="3">0</dante_primary_default_gateway>
+            <dante_ip_address_static_primary type="3">2281574606</dante_ip_address_static_primary>
+            <dante_ip_subnet_static_primary type="3">4294967040</dante_ip_subnet_static_primary>
+            <dante_ip_gateway_static_primary type="3">0</dante_ip_gateway_static_primary>
+            <scan_lock type="1">false</scan_lock>
+            <sync_lock type="1">false</sync_lock>
+            <channel number="1">
+                <channel_name type="10"><![CDATA[Theater1]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">16</audio_gain>
+                <audio_mute type="1">false</audio_mute>
+                <frequency type="3">475925</frequency>
+                <remote_name type="10"></remote_name>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_audio_mute_switch type="3">255</ir_sync_audio_mute_switch>
+                <ir_sync_tx_sensitivity type="2">-1</ir_sync_tx_sensitivity>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <ir_sync_custom_groups type="3">0</ir_sync_custom_groups>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <ir_sync_handheld_offset type="3">255</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="3">255</ir_sync_bodypack_offset>
+                <ir_sync_tx_polarity type="3">255</ir_sync_tx_polarity>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_boundary_offset type="3">255</ir_sync_boundary_offset>
+                <ir_sync_gooseneck_offset type="3">255</ir_sync_gooseneck_offset>
+                <ir_sync_boundary_led_behavior type="3">255</ir_sync_boundary_led_behavior>
+                <ir_sync_gooseneck_led_behavior type="3">255</ir_sync_gooseneck_led_behavior>
+                <ir_sync_boundgoose_switch_behavior type="3">255</ir_sync_boundgoose_switch_behavior>
+                <ir_sync_boundgoose_rf_power type="3">255</ir_sync_boundgoose_rf_power>
+                <ir_sync_boundgoose_batterytype type="3">255</ir_sync_boundgoose_batterytype>
+                <ir_sync_init_state_from_charger type="3">255</ir_sync_init_state_from_charger>
+                <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
+                <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
+                <tags type="10"></tags>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+            <channel number="2">
+                <channel_name type="10"><![CDATA[Theater2]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">16</audio_gain>
+                <audio_mute type="1">false</audio_mute>
+                <frequency type="3">478475</frequency>
+                <remote_name type="10"></remote_name>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_audio_mute_switch type="3">255</ir_sync_audio_mute_switch>
+                <ir_sync_tx_sensitivity type="2">-1</ir_sync_tx_sensitivity>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <ir_sync_custom_groups type="3">0</ir_sync_custom_groups>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <ir_sync_handheld_offset type="3">255</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="3">255</ir_sync_bodypack_offset>
+                <ir_sync_tx_polarity type="3">255</ir_sync_tx_polarity>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_boundary_offset type="3">255</ir_sync_boundary_offset>
+                <ir_sync_gooseneck_offset type="3">255</ir_sync_gooseneck_offset>
+                <ir_sync_boundary_led_behavior type="3">255</ir_sync_boundary_led_behavior>
+                <ir_sync_gooseneck_led_behavior type="3">255</ir_sync_gooseneck_led_behavior>
+                <ir_sync_boundgoose_switch_behavior type="3">255</ir_sync_boundgoose_switch_behavior>
+                <ir_sync_boundgoose_rf_power type="3">255</ir_sync_boundgoose_rf_power>
+                <ir_sync_boundgoose_batterytype type="3">255</ir_sync_boundgoose_batterytype>
+                <ir_sync_init_state_from_charger type="3">255</ir_sync_init_state_from_charger>
+                <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
+                <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
+                <tags type="10"></tags>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+            <channel number="3">
+                <channel_name type="10"><![CDATA[Theater3]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">16</audio_gain>
+                <audio_mute type="1">false</audio_mute>
+                <frequency type="3">497275</frequency>
+                <remote_name type="10"></remote_name>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_audio_mute_switch type="3">255</ir_sync_audio_mute_switch>
+                <ir_sync_tx_sensitivity type="2">-1</ir_sync_tx_sensitivity>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <ir_sync_custom_groups type="3">0</ir_sync_custom_groups>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <ir_sync_handheld_offset type="3">255</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="3">255</ir_sync_bodypack_offset>
+                <ir_sync_tx_polarity type="3">255</ir_sync_tx_polarity>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_boundary_offset type="3">255</ir_sync_boundary_offset>
+                <ir_sync_gooseneck_offset type="3">255</ir_sync_gooseneck_offset>
+                <ir_sync_boundary_led_behavior type="3">255</ir_sync_boundary_led_behavior>
+                <ir_sync_gooseneck_led_behavior type="3">255</ir_sync_gooseneck_led_behavior>
+                <ir_sync_boundgoose_switch_behavior type="3">255</ir_sync_boundgoose_switch_behavior>
+                <ir_sync_boundgoose_rf_power type="3">255</ir_sync_boundgoose_rf_power>
+                <ir_sync_boundgoose_batterytype type="3">255</ir_sync_boundgoose_batterytype>
+                <ir_sync_init_state_from_charger type="3">255</ir_sync_init_state_from_charger>
+                <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
+                <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
+                <tags type="10"></tags>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+            <channel number="4">
+                <channel_name type="10"><![CDATA[Theater4]]></channel_name>
+                <color type="3">5789784</color>
+                <audio_gain type="2">16</audio_gain>
+                <audio_mute type="1">false</audio_mute>
+                <frequency type="3">474675</frequency>
+                <remote_name type="10"></remote_name>
+                <incl_group type="12">00000000-0000-0000-0000-000000000000</incl_group>
+                <ir_sync_audio_mute_switch type="3">255</ir_sync_audio_mute_switch>
+                <ir_sync_tx_sensitivity type="2">-1</ir_sync_tx_sensitivity>
+                <ir_sync_tx_power type="3">255</ir_sync_tx_power>
+                <ir_sync_remote_lock type="3">255</ir_sync_remote_lock>
+                <ir_sync_bat_type type="3">255</ir_sync_bat_type>
+                <ir_sync_custom_groups type="3">0</ir_sync_custom_groups>
+                <rf_scaling_factor type="3">1</rf_scaling_factor>
+                <ir_sync_handheld_offset type="3">255</ir_sync_handheld_offset>
+                <ir_sync_bodypack_offset type="3">255</ir_sync_bodypack_offset>
+                <ir_sync_tx_polarity type="3">255</ir_sync_tx_polarity>
+                <ir_sync_high_pass type="3">255</ir_sync_high_pass>
+                <ir_sync_boundary_offset type="3">255</ir_sync_boundary_offset>
+                <ir_sync_gooseneck_offset type="3">255</ir_sync_gooseneck_offset>
+                <ir_sync_boundary_led_behavior type="3">255</ir_sync_boundary_led_behavior>
+                <ir_sync_gooseneck_led_behavior type="3">255</ir_sync_gooseneck_led_behavior>
+                <ir_sync_boundgoose_switch_behavior type="3">255</ir_sync_boundgoose_switch_behavior>
+                <ir_sync_boundgoose_rf_power type="3">255</ir_sync_boundgoose_rf_power>
+                <ir_sync_boundgoose_batterytype type="3">255</ir_sync_boundgoose_batterytype>
+                <ir_sync_init_state_from_charger type="3">255</ir_sync_init_state_from_charger>
+                <ir_sync_bngn_power_lock type="3">255</ir_sync_bngn_power_lock>
+                <ir_sync_bngn_led_brightness type="3">255</ir_sync_bngn_led_brightness>
+                <tags type="10"></tags>
+                <group_channel type="10">--,--</group_channel>
+            </channel>
+        </device>
+        <zones version="1.1">
+            <zone color="#6692fc" ordinal="0">Default</zone>
+            <zone_matrix>
+                <from zone="Default">
+                    <to zone="Default">
+                        <ch-ch>1</ch-ch>
+                        <ch-imd>1</ch-imd>
+                    </to>
+                </from>
+            </zone_matrix>
+        </zones>
+    </inventory>
+    <coordination_info>
+        <scan_data version="1.3">
+            <merged_scans/>
+            <threshold>-85</threshold>
+            <higher_threshold>-60</higher_threshold>
+        </scan_data>
+        <channel_exclusions version="1.1">
+            <location_info>
+                <search_type/>
+                <country>United States</country>
+                <found_count>0</found_count>
+                <found_count>0</found_count>
+                <tv_spectrum_format>6 MHz</tv_spectrum_format>
+            </location_info>
+            <channel_avoidance_info>
+                <channel>
+                    <number>2</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>54.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>60.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>3</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>60.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>66.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>4</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>66.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>72.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>5</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>76.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>82.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>6</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>82.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>88.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>7</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>174.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>180.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>8</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>180.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>186.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>9</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>186.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>192.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>10</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>192.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>198.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>11</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>198.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>204.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>12</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>204.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>210.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>13</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>210.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>216.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>14</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>470.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>476.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>15</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>476.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>482.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>16</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>482.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>488.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>17</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>488.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>494.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>18</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>494.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>500.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>19</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>500.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>506.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>20</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>506.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>512.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>21</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>512.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>518.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>22</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>518.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>524.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>23</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>524.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>530.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>24</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>530.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>536.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>25</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>536.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>542.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>26</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>542.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>548.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>27</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>548.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>554.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>28</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>554.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>560.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>29</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>560.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>566.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>30</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>566.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>572.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>31</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>572.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>578.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>32</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>578.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>584.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>33</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>584.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>590.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>34</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>590.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>596.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>35</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>596.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>602.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+                <channel>
+                    <number>36</number>
+                    <call_sign/>
+                    <tv_station_country/>
+                    <tv_station_latitude/>
+                    <tv_station_longitude/>
+                    <tv_chann_start_freq>602.000 MHz</tv_chann_start_freq>
+                    <tv_chann_end_freq>608.000 MHz</tv_chann_end_freq>
+                    <distance>0</distance>
+                    <type>4</type>
+                    <db_source>0</db_source>
+                    <power>0</power>
+                    <exclude>false</exclude>
+                </channel>
+            </channel_avoidance_info>
+        </channel_exclusions>
+        <band_planning version="1.0">
+            <accounted>false</accounted>
+            <country>United States</country>
+            <user_group/>
+            <band_plan_accounted>false</band_plan_accounted>
+        </band_planning>
+    </coordination_info>
+    <plot_info>
+        <coordination_plot version="1.2">
+            <plots/>
+            <start>30.000 MHz</start>
+            <center>1015.000 MHz</center>
+            <end>2000.000 MHz</end>
+            <span>1970.000 MHz</span>
+        </coordination_plot>
+    </plot_info>
+    <custom_user_group_list>
+        <inclusion_list version="1.0" name="Custom" uuid="e851a73c-4efb-4048-ab8e-0ae593aa0db5" active="false"/>
+    </custom_user_group_list>
+    <band_plan_group_list version="1.0"/>
+    <coordinated_data_root id="aac3ea5a-2626-45e4-839c-f0ab0d1220fa" version="0.3">
+        <mic_channels units="khz" count="0"/>
+        <compatibility_profile_settings version="1.0"/>
+        <keys_coord_order version="1.1"/>
+    </coordinated_data_root>
+    <monitoring_info version="2.2">
+        <channel_order>DD4F0F45-0000-11DD-A000-000EDDCCCCCC-0;DD4F0F45-0000-11DD-A000-000EDDCCCCCC-1;DD4F0729-0000-11DD-A000-000EDDCCCCCC-0;DD4F0729-0000-11DD-A000-000EDDCCCCCC-1;DD4F0729-0000-11DD-A000-000EDDCCCCCC-2;DD4F0729-0000-11DD-A000-000EDDCCCCCC-3</channel_order>
+        <charger_order/>
+        <chooser_widget id="1">
+            <sort_section>2</sort_section>
+            <sort_order>0</sort_order>
+        </chooser_widget>
+        <chooser_widget id="2">
+            <sort_section>4</sort_section>
+            <sort_order>0</sort_order>
+        </chooser_widget>
+        <device_chooser_layout>24,646,24,24,24,24</device_chooser_layout>
+        <device_chooser_selection>0,1,0,0,0,0</device_chooser_selection>
+        <strip_parameters>
+            <enabled_options>CS_GraphicsChannelNameNetworkLockWidget,CS_FrequencyTvChannelWidget,CS_GraphicsRfAudioWidget,CS_TxInfoWidget,CS_GraphicsRfPowerContainer,CS_GraphicsEncryptionContainer,CS_GraphicsBatteryAudioModeWidget,CS_GraphicsCarouselContainer,CS_GraphicsChargerStripView,CS_GraphicsAccessPointStripView</enabled_options>
+        </strip_parameters>
+        <autolog_parameters>
+            <enabled_plots>22,7,1,25,3,27,28,26,8,9,10,11,29,30,13,14,24</enabled_plots>
+            <plot_view_mode>4</plot_view_mode>
+        </autolog_parameters>
+        <monitoring_pager version="1.1">
+            <view id="{9c4bcf1d-e6cf-4b2a-9dfb-26ccc655c56b}" name="View 1" active="true"/>
+        </monitoring_pager>
+        <monitoring_registry version="1.1">
+            <view id="{9c4bcf1d-e6cf-4b2a-9dfb-26ccc655c56b}">
+                <registry arrange_mode="0"/>
+            </view>
+        </monitoring_registry>
+    </monitoring_info>
+</show>
