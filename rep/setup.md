@@ -160,6 +160,11 @@ Once you have loaded the QL5 base file and the Dante patch, you should be able t
 
 **Start by setting wireless microphones to `16 dB` of gain.** (Wireless gain is not recalled in the show file.)
 
+You can recall wireless gains, names, and frequencies using the `SLOAN BASE - Wireless Workbench.shw`. Open the file in Wireless Workbench, and when you do you will be prompted to recall settings. Choose "**Keep all settings from: Wireless Workbench**" and then click **Apply to all**.
+
+<img width="600" src="https://github.com/user-attachments/assets/7b7b3581-8b0b-4901-a5f6-039b768ce7b7" />
+
+
 ---
 
 ## Additional Audio Setup
