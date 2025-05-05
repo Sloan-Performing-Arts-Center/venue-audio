@@ -158,7 +158,7 @@ Show files should be available in their respective locations (Mac Desktop, QL5 s
 
 Once you have loaded the QL5 base file and the Dante patch, you should be able to control the wireless microphone gain using the console.
 
-**Start by setting wireless microphones to `13 dB` of gain.** (Wireless gain is not recalled in the show file.)
+**Start by setting wireless microphones to `16 dB` of gain.** (Wireless gain is not recalled in the show file.)
 
 ---
 
