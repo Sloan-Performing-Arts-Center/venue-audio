@@ -50,10 +50,10 @@ The Main Stereo Bus (**`ST`**) runs signal evenly to the full mains system (L, C
 | 5   | Matrix 5 | Sub 2          | Dante      | CAT3-2          |                             |
 | 6   | Mix 1    | Foldback SL    | Dante      | CAT3-3          |                             |
 | 7   | Mix 2    | Foldback SR    | Dante      | CAT3-4          |                             |
-| 8   | Mix 3    | Floor Mon 1 SL | Physical   | RIO OUT 2 → A73 | _optional_                  |
-| 9   | Mix 4    | Floor Mon 2 SL | Physical   | RIO OUT 3 → A74 | _optional_                  |
-| 10  | Mix 5    | Floor Mon 1 SR | Physical   | RIO OUT 4 → A81 | _optional_                  |
-| 11  | Mix 6    | Floor Mon 2 SR | Physical   | RIO OUT 5 → A82 | _optional_                  |
+| 8   | Mix 3    | Floor Mon 1 SL | Physical   | RIO OUT 2 → A13 | _optional_                  |
+| 9   | Mix 4    | Floor Mon 2 SL | Physical   | RIO OUT 3 → A14 | _optional_                  |
+| 10  | Mix 5    | Floor Mon 1 SR | Physical   | RIO OUT 4 → A21 | _optional_                  |
+| 11  | Mix 6    | Floor Mon 2 SR | Physical   | RIO OUT 5 → A22 | _optional_                  |
 |     |
 | 12  | Matrix 7 | Send to TF L   | Dante      |                 | Backstage and ALS as needed |
 | 13  | Matrix 8 | Send to TF R   | Dante      |                 | Backstage and ALS as needed |

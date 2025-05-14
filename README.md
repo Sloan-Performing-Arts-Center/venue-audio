@@ -31,4 +31,3 @@ Browse these docs on [the website](https://sloan-performing-arts-center.github.i
 ---
 
 → [Michael's Tasks Board](https://github.com/orgs/Sloan-Performing-Arts-Center/projects/1)
-v
