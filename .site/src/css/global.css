@@ -2,13 +2,10 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --font-sans:
-    /* 'Atkinson Hyperlegible', */
-    ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji';
-
-  --color-blurple: #ff0000;
+  --breakpoint-xs: 24rem;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   color-scheme: dark;

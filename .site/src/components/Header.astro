@@ -1,16 +1,18 @@
 ---
 import { MAIN_TITLE } from '../../../CONFIGURATION';
+import SearchButton from './search/SearchButton';
 
 const baseUrl = import.meta.env.BASE_URL;
 ---
 
 <header
-  class="fixed inset-x-0 top-0 z-10 bg-zinc-700/95 px-6 py-4 text-nowrap shadow-lg backdrop-blur-md md:px-12 print:hidden"
+  class="max-xs:px-4 fixed inset-x-0 top-0 z-10 flex flex-row justify-between bg-zinc-700/95 px-6 py-4 text-nowrap shadow-lg backdrop-blur-md md:px-12 print:hidden"
 >
   <a
     href={baseUrl}
     class="-mx-3 -my-1 rounded-md px-3 py-1 text-lg font-bold text-zinc-100/90 hover:bg-white/5 hover:text-zinc-100"
     >{MAIN_TITLE}</a
   >
+  <SearchButton client:only="react" />
 </header>
 <div class="h-16 print:hidden"></div>
