@@ -1,6 +1,8 @@
+/* cSpell:disable */
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
-import type { Root } from 'hast';
+import type { Element, Root } from 'hast';
+import fdeq from 'fast-deep-equal';
 
 import { rehype } from 'rehype';
 import { visit } from 'unist-util-visit';
@@ -17,17 +19,22 @@ const contentProcessor = rehype().use(
     (tree: Root, { sections }: VFile & VFExt) => {
       if (!Array.isArray(sections)) return;
 
-      visit(tree, 'element', (node) => {
+      let headingParent: any;
+      visit(tree, 'element', (node, _, parent) => {
         const content = hastToString(node);
 
         if (/^h[1-4]$/.test(node.tagName)) {
           // headings
           let hash = node.properties.id;
+
           if (typeof hash !== 'string') hash = null;
           sections.push([content, hash, []]);
+          headingParent = parent;
         } else {
           // text
           if (!content.length) return;
+          if (!fdeq(parent, headingParent)) return;
+
           sections.at(-1)?.[2].push(content);
         }
       });
