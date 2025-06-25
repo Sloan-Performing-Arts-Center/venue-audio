@@ -159,6 +159,8 @@ Snippets are text shortcuts for commonly-used actions. Type one of the phrases b
 I have added a few to this project, and you can add more to your own computer.
 
 - Add an image `img`
+- Add an image with specified width `wimg`
+- Add a centered image `cimg`
 - Add the table separator bar `tbl`
 - Make a blank line `nl`
 - Add a centered image `cimg`

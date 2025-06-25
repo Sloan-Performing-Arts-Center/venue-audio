@@ -9,3 +9,5 @@ Pages in this section are more niche and in-depth guides on specific topics.
 - [TouchOSC Go Controller for QLab](control.md)
 
 - [Using QLab Audition Mode (remote headphone feed)](audition.md)
+
+- [Installing Show Files Locally](local_presets.md)

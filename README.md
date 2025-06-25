@@ -18,6 +18,7 @@ Browse these docs on [the website](https://sloan-performing-arts-center.github.i
   - [QLab Video & Surface Mapping](extras/qlab_video.md)
   - [TouchOSC Go Controller for QLab](extras/control.md)
   - [Using QLab Audition Mode (remote headphone feed)](extras/audition.md)
+  - [Installing Show Files Locally](extras/local_presets.md)
 
 ## Helpful Shortcuts
 
