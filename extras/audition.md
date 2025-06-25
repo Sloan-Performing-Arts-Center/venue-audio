@@ -16,6 +16,12 @@ Once set up correctly, the system will allow you to do the following:
 
 ## Setup
 
+This diagram shows the standard routing path for QLab audio (top path), in addition to the Audition path that we'll be adding (bottom).
+
+<img width="932" src="img/image-18.png" />
+
+---
+
 > TODO details. + to add to show file or not??
 
 1. console: create a stereo input and a stereo mix.
