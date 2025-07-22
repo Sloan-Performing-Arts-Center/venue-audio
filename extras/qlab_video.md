@@ -5,7 +5,7 @@ This section covers the general process for getting high-quality, unwarped mappi
 > [!IMPORTANT]
 > You are **_STRONGLY RECOMMENDED_** to review the relevant QLab documentation in full before this. The most important section is [**QLab: Video Output**](https://qlab.app/docs/v5/video/video-output).
 >
-> While Sloan's computers are almost always ready to go, it's always a good idea to stay up-to-date on [Preparing Your Mac: Video](https://qlab.app/docs/v5/general/preparing-your-mac/#if-youre-doing-video) which explains how to handle many Mac-related headaches for you.
+> While Sloan's computers are almost always ready to go, it's always a good idea to stay up-to-date on [Preparing Your Mac: Video](https://qlab.app/docs/v5/general/preparing-your-mac/#if-you%E2%80%99re-doing-video) which explains how to handle many Mac-related headaches for you.
 
 ## Projector Configuration/Placement
 
