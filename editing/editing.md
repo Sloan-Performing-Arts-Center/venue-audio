@@ -186,6 +186,42 @@ A few "extensions" I use a lot:
 > | Data    | Data    | Data    |
 > | Data    | Data    | Data    |
 
+#### Converting tables from excel
+
+There are online converters available from spreadsheets to Markdown format.
+
+You can also do it quickly right in VSode:
+
+1. Copy the cells from the spreadsheet.
+
+1. Open a new VSCode file (<kbd>⌘</kbd> <kbd>N</kbd>) and paste from clipboard.
+
+1. Add a blank line above and below the pasted text.
+
+1. Find and replace cell gaps:
+
+   1. Select one of the tabs between cells.
+   1. Select all using <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>L</kbd>.
+   1. Type a `|` character (shift+backslash) to replace all.
+
+1. Find and replace newlines:
+
+   1. Select a new-line character:  
+      Go to the end of a line and press <kbd>Shift</kbd> <kbd>Right Arrow</kbd>.
+
+   1. Select all using <kbd>⌘</kbd> <kbd>Shift</kbd> <kbd>L</kbd>.
+   1. Type `|` <kbd>⏎</kbd> `|` to create the bars at the end of each line.
+
+1. Copy just the table data into your markdown file (minus the two extraneous `|`’s.)
+
+1. Add the table separator:
+
+   Add a new line between the top heading row and the first data row, and type `tbl`, <kbd>Ctrl</kbd> <kbd>Space</kbd> then <kbd>Enter</kbd>, or manually type 1x `|-` for each column.
+
+1. Run the auto-formatter (<kbd>Opt</kbd> <kbd>Shift</kbd> <kbd>F</kbd>).
+
+It might seem complicated, but it only takes a second once you practice!
+
 ### Checklists
 
 ```md
