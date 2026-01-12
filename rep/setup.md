@@ -164,7 +164,6 @@ You can recall wireless gains, names, and frequencies using the `SLOAN BASE - Wi
 
 <img width="600" src="https://github.com/user-attachments/assets/7b7b3581-8b0b-4901-a5f6-039b768ce7b7" />
 
-
 ---
 
 ## Additional Audio Setup
